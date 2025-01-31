@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 
-Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University] in 2024. My research interest lies in Natural Language Processing, Large Language Models, AI Safety, and especially LLM Watermarking.
+Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University] in 2024. My research focuses on Natural Language Processing and Large Language Models, with a particular concentration on AI Safety and LLM Watermarking.
 
-Currently, I was a research intern at [Zhipu AI](https://www.zhipuai.cn/), where I worked under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy).
+I am currently serving as a Research Intern at [Zhipu AI](https://www.zhipuai.cn/), where I am working under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy).
 
 Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
 
@@ -40,39 +40,26 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 </div>
 
 
-<!-- # ⭐ Research Highlights 
-
+# ⭐ Research Work
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/probe.png" alt="LLM Watermarking Overview">
+<img src="images/waterseeker.png" alt="paper">
 </div>
 <div class="paper-text">
-<div class="paper-title">Can Watermarked LLMs be Identified by Users via Crafted Prompts?</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Sheng Guan, Yiming Liu, Leyi Pan, Yifei Zhang, Liancheng Fang, Lijie Wen, Philip S. Yu, Xuming Hu</p>
-<p class="paper-venue">Proceedings of ICLR 2025</p>
-<p class="paper-links"><a href="https://arxiv.org/pdf/2410.03168">[Paper]</a> <a href="https://github.com/THU-BPM/Watermarked_LLM_Identification">[Code]</a></p>
+<div class="paper-title">WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents</div>
+<p class="paper-authors"><strong style="text-decoration-line: underline;">Leyi Pan</strong>, Aiwei Liu, Yijian Lu, Zitian Gao, Yichen Di, Shiyu Huang, Lijie Wen, Irwin King, Philip S. Yu</p>
+<p class="paper-venue">Findings of NAACL 2025, AAAI 2025 Workshop PDLM (Oral)</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2409.05112">[Paper]</a> <a href="https://github.com/THU-BPM/WaterSeeker">[Code]</a></p>
 </div>
 </div>
 
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/tis-dpo.png" alt="LLM Watermarking Overview">
-</div>
-<div class="paper-text">
-<div class="paper-title">TIS-DPO: Token-level Importance Sampling for Direct Preference Optimization With Estimated Weights</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Haoping Bai, Zhiyun Lu, Yanchao Sun, Xiang Kong, Simon Wang, Jiulong Shan, Albin Madappally Jose, Xiaojiang Liu, Lijie Wen, Philip S. Yu, Meng Cao</p>
-<p class="paper-venue">Proceedings of ICLR 2025</p>
-<p class="paper-links"><a href="https://arxiv.org/abs/2410.04350">[Paper]</a> <a href="https://arxiv.org/abs/2410.04350">[Code]</a></p>
-</div>
-</div>
-
-<div class="paper-container">
-<div class="paper-image">
-<img src="images/markllm.png" alt="LLM Watermarking Overview">
+<img src="images/markllm.png" alt="paper">
 </div>
 <div class="paper-text">
 <div class="paper-title">MarkLLM: An Open-Source Toolkit for LLM Watermarking</div>
-<p class="paper-authors">Leyi Pan, <strong style="text-decoration-line: underline;">Aiwei Liu*</strong>, Zhiwei He, Zitian Gao, Xuandong Zhao, Yijian Lu, Binglin Zhou, Shuliang Liu, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu</p>
+<p class="paper-authors"><strong style="text-decoration-line: underline;">Leyi Pan</strong>, Aiwei Liu, Zhiwei He, Zitian Gao, Xuandong Zhao, Yijian Lu, Binglin Zhou, Shuliang Liu, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu</p>
 <p class="paper-venue">Proceedings of EMNLP 2024 Demo</p>
 <p class="paper-links"><a href="https://arxiv.org/pdf/2405.10051">[Paper]</a> <a href="https://github.com/THU-BPM/MarkLLM">[Code]</a> <a href="https://colab.research.google.com/drive/169MS4dY6fKNPZ7-92ETz1bAm_xyNAs0B?usp=sharing">[Google Colab]</a> <a href="https://mp.weixin.qq.com/s/lx9ZNeHae4mo1J6_sFubfg">[机器之心]</a></p>
 </div>
@@ -80,11 +67,11 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/survey.png" alt="LLM Watermarking Overview">
+<img src="images/survey.png" alt="paper">
 </div>
 <div class="paper-text">
 <div class="paper-title">A Survey of Text Watermarking in the Era of Large Language Models</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Leyi Pan, Yijian Lu, Jingjing Li, Xuming Hu, Xi Zhang, Lijie Wen, Irwin King, Hui Xiong, Philip S. Yu</p>
+<p class="paper-authors">Aiwei Liu*, <strong style="text-decoration-line: underline;">Leyi Pan*</strong>, Yijian Lu, Jingjing Li, Xuming Hu, Xi Zhang, Lijie Wen, Irwin King, Hui Xiong, Philip S. Yu</p>
 <p class="paper-venue">ACM Computing Surveys</p>
 <p class="paper-links"><a href="https://arxiv.org/pdf/2312.07913.pdf">[Paper]</a> <a href="https://survey-text-watermark.github.io/">[Home]</a> <a href="https://mp.weixin.qq.com/s/U3ZzGsi3Yihueqr6MGRHfg">[机器之心]</a> <a href="https://x.com/Aiwei_Liu_99/status/1821673541026099519">[Twitter]</a></p>
 </div>
@@ -92,23 +79,23 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/dlma.png" alt="LLM Watermarking Overview">
+<img src="images/probe.png" alt="paper">
 </div>
 <div class="paper-text">
-<div class="paper-title">Direct Large Language Model Alignment Through Self-Rewarding Contrastive Prompt Distillation</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Haoping Bai, Zhiyun Lu, Xiang Kong, Simon Wang, Jiulong Shan, Meng Cao, Lijie Wen</p>
-<p class="paper-venue">Proceedings of ACL 2024</p>
-<p class="paper-links"><a href="https://arxiv.org/pdf/2402.11907.pdf">[Paper]</a> <a href="https://github.com/THU-BPM/Direct_LLM_Alignment">[Code]</a></p>
+<div class="paper-title">Can Watermarked LLMs be Identified by Users via Crafted Prompts?</div>
+<p class="paper-authors">Aiwei Liu, Sheng Guan, Yiming Liu, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Yifei Zhang, Liancheng Fang, Lijie Wen, Philip S. Yu, Xuming Hu</p>
+<p class="paper-venue">Proceedings of ICLR 2025</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2410.03168">[Paper]</a> <a href="https://github.com/THU-BPM/Watermarked_LLM_Identification">[Code]</a></p>
 </div>
 </div>
 
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/SIR.png" alt="LLM Watermarking Overview">
+<img src="images/SIR.png" alt="paper">
 </div>
 <div class="paper-text">
 <div class="paper-title">A Semantic Invariant Robust Watermark for Large Language Models</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Leyi Pan, Xuming Hu, Shiao Meng, Lijie Wen</p>
+<p class="paper-authors">Aiwei Liu, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Xuming Hu, Shiao Meng, Lijie Wen</p>
 <p class="paper-venue">Proceedings of ICLR 2024</p>
 <p class="paper-links"><a href="https://arxiv.org/pdf/2310.06356.pdf">[Paper]</a> <a href="https://github.com/THU-BPM/Robust_Watermark">[Code]</a></p>
 </div>
@@ -116,51 +103,13 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/UPV.png" alt="LLM Watermarking Overview">
+<img src="images/UPV.png" alt="paper">
 </div>
 <div class="paper-text">
 <div class="paper-title">An Unforgeable Publicly Verifiable Watermark for Large Language Models</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Leyi Pan, Xuming Hu, Shuang Li, Lijie Wen, Irwin King, Philip S. Yu</p>
+<p class="paper-authors">Aiwei Liu, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Xuming Hu, Shuang Li, Lijie Wen, Irwin King, Philip S. Yu</p>
 <p class="paper-venue">Proceedings of ICLR 2024</p>
 <p class="paper-links"><a href="https://arxiv.org/pdf/2307.16230.pdf">[Paper]</a> <a href="https://github.com/THU-BPM/unforgeable_watermark">[Code]</a></p>
-</div>
-</div>
-
-<div class="paper-container">
-<div class="paper-image">
-<img src="images/cg-sql.png" alt="LLM Watermarking Overview">
-</div>
-<div class="paper-text">
-<div class="paper-title">Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing </div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Wei Liu, Xuming Hu, Shuang Li, Fukun Ma, Yawen Yang, Lijie Wen</p>
-<p class="paper-venue">Findings of ACL 2023</p>
-<p class="paper-links"><a href="https://aclanthology.org/2023.findings-acl.43.pdf">[Paper]</a> <a href="https://github.com/THU-BPM/CD-Text2SQL-CG">[Code]</a></p>
-</div>
-</div>
-
-
-
-<div class="paper-container">
-<div class="paper-image">
-<img src="images/cwba.png" alt="LLM Watermarking Overview">
-</div>
-<div class="paper-text">
-<div class="paper-title">Character-level White-Box Adversarial Attacks against Transformers via Attachable Subwords Substitution</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Honghai Yu, Xuming Hu, Shu'ang Li, Li Lin, Fukun Ma, Yawen Yang, Lijie Wen</p>
-<p class="paper-venue">Proceedings of EMNLP 2022</p>
-<p class="paper-links"><a href="https://arxiv.org/abs/2210.17004">[Paper]</a> <a href="https://github.com/THU-BPM/CWBA">[Code]</a></p>
-</div>
-</div>
-
-<div class="paper-container">
-<div class="paper-image">
-<img src="images/sql.png" alt="LLM Watermarking Overview">
-</div>
-<div class="paper-text">
-<div class="paper-title">Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph</div>
-<p class="paper-authors"><strong style="text-decoration-line: underline;">Aiwei Liu</strong>, Xuming Hu, Li Lin, Lijie Wen</p>
-<p class="paper-venue">Proceedings of SIGKDD 2022</p>
-<p class="paper-links"><a href="https://arxiv.org/pdf/2207.08814">[Paper]</a> <a href="https://github.com/THU-BPM/ISESL-SQL">[Code]</a></p>
 </div>
 </div>
 
@@ -168,10 +117,8 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 # 📞 Contact
 
 - 📧 **Email**:
-  -  liuaw20@mails.tsinghua.edu.cn
-  -  liuaiwei20@gmail.com
-- 💬 **Wechat**:
-  - u839134412
+  -  panly24@mails.tsinghua.edu.cn
+  -  panleyi2003@gmail.com
 
 
 # 🎓 Services
@@ -179,35 +126,10 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 <div style="font-family: 'Microsoft YaHei';">
 <p style="font-size: 18px; font-weight: bold;">Program Committee/Reviewer</p>
 
-<p style="font-size: 16px; font-weight: bold; margin-top: 10px;">Journals:</p>
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li>IEEE Transactions on Knowledge and Data Engineering (TKDE)</li>
-  <li>IEEE Transactions on Image Processing (TIP)</li>
-</ul>
-
 <p style="font-size: 16px; font-weight: bold; margin-top: 10px;">Conferences:</p>
 <ul style="list-style-type: disc; padding-left: 20px;">
-  <li>The International Conference on Machine Learning (ICML)</li>
   <li>The International Conference on Learning Representations (ICLR)</li>
-  <li>The Annual Meeting of the Association for Computational Linguistics (ACL)</li>
-  <li>The Annual Conference on Empirical Methods in Natural Language Processing (EMNLP)</li>
-  <li>The Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</li>
-  <li>The Annual Conference of the European Chapter of the Association for Computational Linguistics (EACL)</li>
-  <li>The ACM WWW International World Wide Web Conference (WWW)</li>
-  <li>The ACM International Conference on Multimedia (MM)</li>
 </ul>
-
-<p style="font-size: 18px; font-weight: bold;">Workshop Organization</p>
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li>Co-organizer of the <a href="https://aaai2025-llm-misinformation.github.io/">AAAI 2025 Workshop on Preventing and Detecting LLM Generated Misinformation (PDLM)</a></li>
-</ul>
-
-<p style="font-size: 18px; font-weight: bold;">Tutorial</p> 
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li>Lead presenter for "Preventing and Detecting Misinformation Generated by Large Language Models" tutorial at SIGIR 2024</li>
-  <li style="list-style-type: none; padding-left: 20px;">Tutorial website: <a href="https://sigir24-llm-misinformation.github.io/">https://sigir24-llm-misinformation.github.io/</a></li>
-</ul>
-</div>
 
 <p align="center" style="padding-top: 40px;">
   <a href="https://clustrmaps.com/site/1bz29" title="Visit tracker">
@@ -215,7 +137,7 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
   </a>
 </p>
 <p align="center" style="padding-top: 100px;"> 
-</p> -->
+</p>
 
 <style>
 .paper-container {
