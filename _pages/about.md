@@ -149,136 +149,75 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 
 # Project
 
-<div id="github-projects" style="display: flex; flex-direction: column; gap: 20px;"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const projects = [
-        {
-            owner: "THU-BPM",
-            repo: "MarkLLM"
-        }
-    ];
-
-    async function fetchGitHubData(owner, repo) {
-        try {
-            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-                headers: {
-                    'Accept': 'application/vnd.github.v3+json'
-                }
-            });
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return await response.json();
-        } catch (error) {
-            console.error('Error fetching GitHub data:', error);
-            return null;
-        }
-    }
-
-    function getLanguageColor(language) {
-        const colors = {
-            Python: '#3572A5',
-            JavaScript: '#f1e05a',
-            TypeScript: '#2b7489',
-            Java: '#b07219',
-            C: '#555555',
-            'C++': '#f34b7d',
-            Jupyter: '#DA5B0B',
-            HTML: '#e34c26',
-            CSS: '#563d7c',
-            Ruby: '#701516'
-        };
-        return colors[language] || '#858585';
-    }
-
-    function createProjectCard(data) {
-        if (!data) return '';
-        
-        return `
-        <div style="
-            display: flex;
-            gap: 20px;
-            margin: 10px 0;
-            padding: 15px;
-            border: 1px solid #e1e4e8;
-            border-radius: 6px;
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        ">
-            <div style="flex: 1;">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <a href="${data.html_url}" 
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       style="
-                        color: #0366d6;
-                        font-size: 20px;
-                        font-weight: 600;
-                        text-decoration: none;
-                    ">${data.name}</a>
-                    <span style="
-                        border: 1px solid #e1e4e8;
-                        border-radius: 20px;
-                        padding: 0 7px;
-                        font-size: 12px;
-                        color: #586069;
-                    ">${data.private ? 'Private' : 'Public'}</span>
-                </div>
-                <p style="
-                    color: #586069;
+<div style="display: flex; flex-direction: column; gap: 20px;">
+    <!-- MarkLLM Card -->
+    <div style="
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        padding: 16px;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+        background-color: #fff;
+    ">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <svg height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill="#586069"></path>
+                </svg>
+                <a href="https://github.com/THU-BPM/MarkLLM" style="
+                    color: #0366d6;
+                    text-decoration: none;
+                    font-weight: 600;
                     font-size: 14px;
-                    margin: 8px 0;
-                ">${data.description || ''}</p>
-                <div style="display: flex; align-items: center; font-size: 12px; color: #586069;">
-                    ${data.language ? `
-                    <div style="display: flex; align-items: center; margin-right: 16px;">
-                        <span style="
-                            display: inline-block;
-                            width: 12px;
-                            height: 12px;
-                            border-radius: 50%;
-                            background-color: ${getLanguageColor(data.language)};
-                            margin-right: 5px;
-                        "></span>
-                        ${data.language}
-                    </div>
-                    ` : ''}
-                    <div style="margin-right: 16px;">
-                        ⭐ ${data.stargazers_count}
-                    </div>
-                    <div>
-                        🔀 ${data.forks_count}
-                    </div>
-                </div>
+                    margin-left: 8px;
+                ">THU-BPM/MarkLLM</a>
             </div>
+            <div style="
+                border: 1px solid #e1e4e8;
+                border-radius: 20px;
+                padding: 0 7px;
+                font-size: 12px;
+                color: #586069;
+            ">Public</div>
         </div>
-        `;
-    }
-
-    async function updateProjects() {
-        const container = document.getElementById('github-projects');
-        if (!container) return;
-        
-        container.innerHTML = ''; // Clear existing content
-        
-        for (const project of projects) {
-            const data = await fetchGitHubData(project.owner, project.repo);
-            if (data) {
-                container.innerHTML += createProjectCard(data);
-            }
-        }
-    }
-
-    // Initial update
-    updateProjects();
-
-    // Update every hour
-    setInterval(updateProjects, 60 * 60 * 1000);
-});
-</script>
+        <p style="
+            font-size: 14px;
+            color: #586069;
+            margin: 8px 0;
+        ">An Open-Source Toolkit for LLM Watermarking (EMNLP 2024 Demo)</p>
+        <div style="display: flex; align-items: center; margin-top: 8px;">
+            <span style="
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: #3572A5;
+                margin-right: 5px;
+            "></span>
+            <span style="color: #586069; font-size: 12px; margin-right: 16px;">Python</span>
+            <a href="https://github.com/THU-BPM/MarkLLM/stargazers" style="
+                color: #586069;
+                text-decoration: none;
+                font-size: 12px;
+                margin-right: 16px;
+            ">
+                <svg aria-label="stars" height="16" viewBox="0 0 16 16" version="1.1" width="16" style="fill: #586069">
+                    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+                </svg>
+                <span style="margin-left: 4px;">Stars</span>
+            </a>
+            <a href="https://github.com/THU-BPM/MarkLLM/network/members" style="
+                color: #586069;
+                text-decoration: none;
+                font-size: 12px;
+            ">
+                <svg aria-label="fork" height="16" viewBox="0 0 16 16" version="1.1" width="16" style="fill: #586069">
+                    <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                </svg>
+                <span style="margin-left: 4px;">Forks</span>
+            </a>
+        </div>
+    </div>
+</div>
 
 # Awards
 - **Outstanding Graduate of Beijing** (北京市优秀毕业生)
