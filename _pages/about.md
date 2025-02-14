@@ -182,7 +182,8 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
             font-size: 14px;
             color: #586069;
             margin: 8px 0;
-        ">An Open-Source Toolkit for LLM Watermarking (EMNLP 2024 Demo) <span style="color: #238636; font-weight: 500;">🏆 First Author & First Contributor</span></p>
+        "><span style="color: #238636; font-weight: 500;">🏆 First Author & First Contributor</span><br> An Open-Source Toolkit for LLM Watermarking (EMNLP 2024 Demo)
+        </p>
         <div style="display: flex; align-items: center; margin-top: 8px; gap: 8px;">
             <!-- Language -->
             <img src="https://img.shields.io/github/languages/top/THU-BPM/MarkLLM?style=flat-square" alt="Language">
@@ -213,6 +214,9 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 # Services
 - **Program Committee/Reviewer**:
   -  The Thirteenth International Conference on Learning Representations (ICLR 2025)
+
+<p align="center" style="padding-top: 100px;"> 
+</p>
 
 <style>
 .paper-container {
