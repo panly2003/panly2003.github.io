@@ -148,7 +148,6 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 </div>
 
 # Project
-
 <div style="display: flex; flex-direction: column; gap: 20px;">
     <!-- MarkLLM Card -->
     <div style="
@@ -183,7 +182,7 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
             font-size: 14px;
             color: #586069;
             margin: 8px 0;
-        ">An Open-Source Toolkit for LLM Watermarking (EMNLP 2024 Demo)</p>
+        ">An Open-Source Toolkit for LLM Watermarking (EMNLP 2024 Demo) <span style="color: #238636; font-weight: 500;">🏆 First Author & First Contributor</span></p>
         <div style="display: flex; align-items: center; margin-top: 8px; gap: 8px;">
             <!-- Language -->
             <img src="https://img.shields.io/github/languages/top/THU-BPM/MarkLLM?style=flat-square" alt="Language">
