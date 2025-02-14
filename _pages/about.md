@@ -30,7 +30,7 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 
 <div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
-        <img src="images/tsinghua.svg" alt="singhua University Logo" style="width: 80px; height: auto;">
+        <img src="images/tsinghua.svg" alt="Tsinghua University Logo" style="width: 80px; height: auto;">
     </div>
     <div>
         <div style="font-weight: bold;">Tsinghua University, China</div>
@@ -39,8 +39,42 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
     </div>
 </div>
 
+# 💼 Work Experience
 
-# ⭐ Research Work
+<div style="display: flex; margin-bottom: 2em; align-items: center;">
+    <div style="margin-right: 2em;">
+        <img src="images/zhipu.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
+    </div>
+    <div>
+        <div style="font-weight: bold;">Zhipu AI, China</div>
+        <div style="font-style: italic;">LLM Research Intern</div>
+        <div>Oct. 2024 - Present</div>
+    </div>
+</div>
+
+<div style="display: flex; margin-bottom: 2em; align-items: center;">
+    <div style="margin-right: 2em;">
+        <img src="images/cuhk.svg" alt="CUHK Logo" style="width: 80px; height: auto;">
+    </div>
+    <div>
+        <div style="font-weight: bold;">The Chinese University of Hong Kong (CUHK)</div>
+        <div style="font-style: italic;">Visiting Scholar</div>
+        <div>Jun. 2024 - Aug. 2024</div>
+    </div>
+</div>
+
+<div style="display: flex; margin-bottom: 2em; align-items: center;">
+    <div style="margin-right: 2em;">
+        <img src="images/kuaishou.svg" alt="KuaiShou Logo" style="width: 80px; height: auto;">
+    </div>
+    <div>
+        <div style="font-weight: bold;">KuaiShou Technology, China</div>
+        <div style="font-style: italic;">Software Engineer Intern</div>
+        <div>Jun. 2023 - Aug. 2023</div>
+    </div>
+</div>
+
+# ⭐ Research Paper
 <div class="paper-container">
 <div class="paper-image">
 <img src="images/waterseeker.png" alt="paper">
