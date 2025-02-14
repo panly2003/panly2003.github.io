@@ -149,121 +149,135 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 
 # Project
 
-<div id="github-projects" style="display: flex; flex-direction: column; gap: 20px;">
-    <!-- Projects will be dynamically inserted here -->
-</div>
+<div id="github-projects" style="display: flex; flex-direction: column; gap: 20px;"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-const projects = [
-    {
-        owner: "THU-BPM",
-        repo: "MarkLLM"
+document.addEventListener('DOMContentLoaded', function() {
+    const projects = [
+        {
+            owner: "THU-BPM",
+            repo: "MarkLLM"
+        }
+    ];
+
+    async function fetchGitHubData(owner, repo) {
+        try {
+            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+                headers: {
+                    'Accept': 'application/vnd.github.v3+json'
+                }
+            });
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return await response.json();
+        } catch (error) {
+            console.error('Error fetching GitHub data:', error);
+            return null;
+        }
     }
-    // 可以继续添加更多项目
-];
 
-async function fetchGitHubData(owner, repo) {
-    try {
-        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
-        return await response.json();
-    } catch (error) {
-        console.error('Error fetching GitHub data:', error);
-        return null;
+    function getLanguageColor(language) {
+        const colors = {
+            Python: '#3572A5',
+            JavaScript: '#f1e05a',
+            TypeScript: '#2b7489',
+            Java: '#b07219',
+            C: '#555555',
+            'C++': '#f34b7d',
+            Jupyter: '#DA5B0B',
+            HTML: '#e34c26',
+            CSS: '#563d7c',
+            Ruby: '#701516'
+        };
+        return colors[language] || '#858585';
     }
-}
 
-function getLanguageColor(language) {
-    const colors = {
-        Python: '#3572A5',
-        JavaScript: '#f1e05a',
-        TypeScript: '#2b7489',
-        Java: '#b07219',
-        C: '#555555',
-        'C++': '#f34b7d',
-        Jupyter: '#DA5B0B',
-        HTML: '#e34c26',
-        CSS: '#563d7c',
-        Ruby: '#701516'
-    };
-    return colors[language] || '#858585';
-}
-
-function createProjectCard(data) {
-    return `
-    <div class="project-container" style="
-        display: flex;
-        gap: 20px;
-        margin: 10px 0;
-        padding: 15px;
-        border: 1px solid #e1e4e8;
-        border-radius: 6px;
-        background: #fff;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    ">
-        <div class="project-content" style="flex: 1;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <a href="${data.html_url}" style="
-                    color: #0366d6;
-                    font-size: 20px;
-                    font-weight: 600;
-                    text-decoration: none;
-                ">${data.name}</a>
-                <span style="
-                    border: 1px solid #e1e4e8;
-                    border-radius: 20px;
-                    padding: 0 7px;
-                    font-size: 12px;
-                    color: #586069;
-                ">${data.private ? 'Private' : 'Public'}</span>
-            </div>
-            <p style="
-                color: #586069;
-                font-size: 14px;
-                margin: 8px 0;
-            ">${data.description || ''}</p>
-            <div style="display: flex; align-items: center; font-size: 12px; color: #586069;">
-                ${data.language ? `
-                <div style="display: flex; align-items: center; margin-right: 16px;">
+    function createProjectCard(data) {
+        if (!data) return '';
+        
+        return `
+        <div style="
+            display: flex;
+            gap: 20px;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        ">
+            <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <a href="${data.html_url}" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       style="
+                        color: #0366d6;
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-decoration: none;
+                    ">${data.name}</a>
                     <span style="
-                        display: inline-block;
-                        width: 12px;
-                        height: 12px;
-                        border-radius: 50%;
-                        background-color: ${getLanguageColor(data.language)};
-                        margin-right: 5px;
-                    "></span>
-                    ${data.language}
+                        border: 1px solid #e1e4e8;
+                        border-radius: 20px;
+                        padding: 0 7px;
+                        font-size: 12px;
+                        color: #586069;
+                    ">${data.private ? 'Private' : 'Public'}</span>
                 </div>
-                ` : ''}
-                <div style="margin-right: 16px;">
-                    ⭐ ${data.stargazers_count}
-                </div>
-                <div>
-                    🔀 ${data.forks_count}
+                <p style="
+                    color: #586069;
+                    font-size: 14px;
+                    margin: 8px 0;
+                ">${data.description || ''}</p>
+                <div style="display: flex; align-items: center; font-size: 12px; color: #586069;">
+                    ${data.language ? `
+                    <div style="display: flex; align-items: center; margin-right: 16px;">
+                        <span style="
+                            display: inline-block;
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background-color: ${getLanguageColor(data.language)};
+                            margin-right: 5px;
+                        "></span>
+                        ${data.language}
+                    </div>
+                    ` : ''}
+                    <div style="margin-right: 16px;">
+                        ⭐ ${data.stargazers_count}
+                    </div>
+                    <div>
+                        🔀 ${data.forks_count}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    `;
-}
+        `;
+    }
 
-async function updateProjects() {
-    const container = document.getElementById('github-projects');
-    container.innerHTML = ''; // 清空现有内容
-    
-    for (const project of projects) {
-        const data = await fetchGitHubData(project.owner, project.repo);
-        if (data) {
-            container.innerHTML += createProjectCard(data);
+    async function updateProjects() {
+        const container = document.getElementById('github-projects');
+        if (!container) return;
+        
+        container.innerHTML = ''; // Clear existing content
+        
+        for (const project of projects) {
+            const data = await fetchGitHubData(project.owner, project.repo);
+            if (data) {
+                container.innerHTML += createProjectCard(data);
+            }
         }
     }
-}
 
-// 初始更新
-updateProjects();
+    // Initial update
+    updateProjects();
 
-// 每1小时更新一次数据
-setInterval(updateProjects, 60 * 60 * 1000);
+    // Update every hour
+    setInterval(updateProjects, 60 * 60 * 1000);
+});
 </script>
 
 # Awards
