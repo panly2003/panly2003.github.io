@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 About Me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,7 +15,7 @@ I am currently serving as a Research Intern at [Zhipu AI](https://www.zhipuai.cn
 Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
 
 
-# 🎓 Education
+# Education
 
 <div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
@@ -39,11 +39,11 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
     </div>
 </div>
 
-# 💼 Work Experience
+# Work Experience
 
 <div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
-        <img src="images/zhipu.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
+        <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
     </div>
     <div>
         <div style="font-weight: bold;">Zhipu AI, China</div>
@@ -74,7 +74,7 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
     </div>
 </div>
 
-# ⭐ Research Paper
+# Research Paper
 <div class="paper-container">
 <div class="paper-image">
 <img src="images/waterseeker.png" alt="paper">
@@ -148,14 +148,14 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 </div>
 
 
-# 📞 Contact
+# Contact
 
-- 📧 **Email**:
+- **Email**:
   -  panly24@mails.tsinghua.edu.cn
   -  panleyi2003@gmail.com
 
 
-# 🎓 Services
+# Services
 
 <div style="font-family: 'Microsoft YaHei';">
 <p style="font-size: 18px; font-weight: bold;">Program Committee/Reviewer</p>
