@@ -12,7 +12,7 @@ Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master student at the
 
 I am currently serving as a Research Intern at [Zhipu AI](https://www.zhipuai.cn/), where I am working under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy).
 
-Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
+Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
 
 
 # Education
@@ -58,7 +58,7 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
     </div>
     <div>
         <div style="font-weight: bold;">The Chinese University of Hong Kong (CUHK)</div>
-        <div style="font-style: italic;">Visiting Scholar</div>
+        <div style="font-style: italic;">Research Assistant</div>
         <div>Jun. 2024 - Aug. 2024</div>
     </div>
 </div>
