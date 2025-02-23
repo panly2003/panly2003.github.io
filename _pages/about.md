@@ -77,6 +77,18 @@ Previously, I was serving as a Visiting Scholar at [CUHK MISC Lab](https://misc-
 # Research Paper
 <div class="paper-container">
 <div class="paper-image">
+<img src="images/wn.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?</div>
+<p class="paper-authors"><strong style="text-decoration-line: underline;">Leyi Pan</strong>, Aiwei Liu, Shiyu Huang, Yijian Lu, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu</p>
+<p class="paper-venue">arXiv preprint arXiv:2502.11598</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2502.11598">[Paper]</a> <a href="https://github.com/THU-BPM/Watermark-Radioactivity-Attack">[Code]</a></p>
+</div>
+</div>
+
+<div class="paper-container">
+<div class="paper-image">
 <img src="images/waterseeker.png" alt="paper">
 </div>
 <div class="paper-text">
