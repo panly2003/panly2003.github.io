@@ -8,7 +8,11 @@ redirect_from:
 ---
 
 
-Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/) in 2024. My research focuses on Natural Language Processing and Large Language Models, with a particular concentration on AI Safety and LLM Watermarking.
+Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master's student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/) in 2024. 
+
+My research focuses on two main areas:
+- AI Safety with an emphasis on watermark for large language models.
+- Post-training methods to enhance reasoning capabilities of multimodal large language models.
 
 I am currently serving as a Research Intern at [Zhipu AI](https://www.zhipuai.cn/), where I am working under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy).
 
@@ -23,7 +27,7 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
     </div>
     <div>
         <div style="font-weight: bold;">Tsinghua University, China</div>
-        <div style="font-style: italic;">Master Student in Software Engineering</div>
+        <div style="font-style: italic;">Master's Student in Software Engineering</div>
         <div>Sept. 2024 - June 2027 (Expected)</div>
     </div>
 </div>
@@ -41,7 +45,7 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
 
 # Work Experience
 
-<div style="display: flex; margin-bottom: 2em; align-items: center;">
+<!-- <div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
         <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
     </div>
@@ -71,6 +75,62 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
         <div style="font-weight: bold;">KuaiShou Technology, China</div>
         <div style="font-style: italic;">Software Engineer Intern</div>
         <div>Jun. 2023 - Aug. 2023</div>
+    </div>
+</div> -->
+
+<div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
+    <div style="margin-right: 2em;">
+        <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
+    </div>
+    <div style="flex: 1; display: flex; gap: 2em;">
+        <div style="min-width: 200px;">
+            <div style="font-weight: bold;">Zhipu AI, China</div>
+            <div style="font-style: italic;">LLM Research Intern</div>
+            <div>Oct. 2024 - Present</div>
+        </div>
+        <div style="flex: 1; padding: 1em; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
+            <ul style="list-style-type: disc; margin-left: 1.5em;">
+                <li>Exploring post-training strategies to enhance general reasoning capabilities of large multimodal models.</li>
+                <li>Research on robustness of LLM Watermark against unauthorized knowledge distillation.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
+    <div style="margin-right: 2em;">
+        <img src="images/cuhk.svg" alt="CUHK Logo" style="width: 80px; height: auto;">
+    </div>
+    <div style="flex: 1; display: flex; gap: 2em;">
+        <div style="min-width: 200px;">
+            <div style="font-weight: bold;">The Chinese University of Hong Kong (CUHK)</div>
+            <div style="font-style: italic;">Research Assistant</div>
+            <div>Jun. 2024 - Aug. 2024</div>
+        </div>
+        <div style="flex: 1; padding: 1em; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
+            <ul style="list-style-type: disc; margin-left: 1.5em;">
+                <li>Propose a new universal watermark detection method named WaterSeeker for efficiently detecting watermark fragments in large documents, achieving a good balance between time complexity and detection performance.</li>
+                <li>Published a conference paper at NAACL 2025.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
+    <div style="margin-right: 2em;">
+        <img src="images/kuaishou.svg" alt="KuaiShou Logo" style="width: 80px; height: auto;">
+    </div>
+    <div style="flex: 1; display: flex; gap: 2em;">
+        <div style="min-width: 200px;">
+            <div style="font-weight: bold;">KuaiShou Technology, China</div>
+            <div style="font-style: italic;">Software Engineer Intern</div>
+            <div>Jun. 2023 - Aug. 2023</div>
+        </div>
+        <div style="flex: 1; padding: 1em; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
+            <ul style="list-style-type: disc; margin-left: 1.5em;">
+                <li>Improve KuaiAgent's capability to reason about and solve time-sensitive problems via tool using.</li>
+            </ul>
+        </div>
     </div>
 </div>
 
