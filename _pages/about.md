@@ -45,13 +45,13 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
 
 # Work Experience
 
-<!-- <div style="display: flex; margin-bottom: 2em; align-items: center;">
+<div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
         <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
     </div>
     <div>
         <div style="font-weight: bold;">Zhipu AI, China</div>
-        <div style="font-style: italic;">LLM Research Intern</div>
+        <div style="font-style: italic;">Large Multimodal Model Research Intern</div>
         <div>Oct. 2024 - Present</div>
     </div>
 </div>
@@ -76,9 +76,9 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
         <div style="font-style: italic;">Software Engineer Intern</div>
         <div>Jun. 2023 - Aug. 2023</div>
     </div>
-</div> -->
+</div>
 
-<div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
+<!-- <div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
     <div style="margin-right: 2em;">
         <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
     </div>
@@ -132,7 +132,7 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 
 # Research Paper
 <div class="paper-container">
