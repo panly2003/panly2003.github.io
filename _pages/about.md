@@ -14,10 +14,9 @@ My research focuses on two main areas:
 - AI Safety with an emphasis on watermark for large language models.
 - Post-training methods to enhance reasoning capabilities of multimodal large language models.
 
-I am currently serving as a Research Intern at [Zhipu AI](https://www.zhipuai.cn/), where I am working under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy).
+I am currently serving as a Research Intern at [Tongyi Team of Alibaba](https://careers-tongyi.alibaba.com/), where I am working under the supervision of Dr. [Yunpeng Zhai](https://scholar.google.com/citations?user=YZ88bV8AAAAJ&hl=zh-CN).
 
-Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
-
+Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy). I also served as a Research Assistant at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
 
 # Education
 
@@ -47,12 +46,23 @@ Previously, I was serving as a Research Assistant at [CUHK MISC Lab](https://mis
 
 <div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
+        <img src="images/qwen-color.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
+    </div>
+    <div>
+        <div style="font-weight: bold;">Tongyi Team of Alibaba, China</div>
+        <div style="font-style: italic;">Research Intern</div>
+        <div>Jul. 2025 - Present</div>
+    </div>
+</div>
+
+<div style="display: flex; margin-bottom: 2em; align-items: center;">
+    <div style="margin-right: 2em;">
         <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
     </div>
     <div>
         <div style="font-weight: bold;">Zhipu AI, China</div>
         <div style="font-style: italic;">Large Multimodal Model Research Intern</div>
-        <div>Oct. 2024 - Present</div>
+        <div>Oct. 2024 - Jun. 2025</div>
     </div>
 </div>
 
