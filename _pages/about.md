@@ -88,63 +88,20 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
     </div>
 </div>
 
-<!-- <div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
-    <div style="margin-right: 2em;">
-        <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
-    </div>
-    <div style="flex: 1; display: flex; gap: 2em;">
-        <div style="min-width: 200px;">
-            <div style="font-weight: bold;">Zhipu AI, China</div>
-            <div style="font-style: italic;">LLM Research Intern</div>
-            <div>Oct. 2024 - Present</div>
-        </div>
-        <div style="flex: 1; padding: 1em; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
-            <ul style="list-style-type: disc; margin-left: 1.5em;">
-                <li>Exploring post-training strategies to enhance general reasoning capabilities of large multimodal models.</li>
-                <li>Research on robustness of LLM Watermark against unauthorized knowledge distillation.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
-    <div style="margin-right: 2em;">
-        <img src="images/cuhk.svg" alt="CUHK Logo" style="width: 80px; height: auto;">
-    </div>
-    <div style="flex: 1; display: flex; gap: 2em;">
-        <div style="min-width: 200px;">
-            <div style="font-weight: bold;">The Chinese University of Hong Kong (CUHK)</div>
-            <div style="font-style: italic;">Research Assistant</div>
-            <div>Jun. 2024 - Aug. 2024</div>
-        </div>
-        <div style="flex: 1; padding: 1em; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
-            <ul style="list-style-type: disc; margin-left: 1.5em;">
-                <li>Propose a new universal watermark detection method named WaterSeeker for efficiently detecting watermark fragments in large documents, achieving a good balance between time complexity and detection performance.</li>
-                <li>Published a conference paper at NAACL 2025.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div style="display: flex; margin-bottom: 2em; align-items: flex-start;">
-    <div style="margin-right: 2em;">
-        <img src="images/kuaishou.svg" alt="KuaiShou Logo" style="width: 80px; height: auto;">
-    </div>
-    <div style="flex: 1; display: flex; gap: 2em;">
-        <div style="min-width: 200px;">
-            <div style="font-weight: bold;">KuaiShou Technology, China</div>
-            <div style="font-style: italic;">Software Engineer Intern</div>
-            <div>Jun. 2023 - Aug. 2023</div>
-        </div>
-        <div style="flex: 1; padding: 1em; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;">
-            <ul style="list-style-type: disc; margin-left: 1.5em;">
-                <li>Improve KuaiAgent's capability to reason about and solve time-sensitive problems via tool using.</li>
-            </ul>
-        </div>
-    </div>
-</div> -->
 
 # Research Paper
+<div class="paper-container">
+<div class="paper-image">
+<img src="images/GLM-4.1V.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning</div>
+<p class="paper-authors">Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Jiazheng Xu, Jiali Chen, Jing Chen, Jinhao Chen, Jinghao Lin, Jinjiang Wang, Junjie Chen, Leqi Lei, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Mingzhi Zhang, Qinkai Zheng, Sheng Yang, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Shangqin Tu, Shengbiao Meng, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Tianle Gong, Wenkai Li, Wei Jia, Xin Lyu, Xuancheng Huang, Yanling Wang, Yadong Xue, Yanfeng Wang, Yifan An, Yifan Du, Yiming Shi, Yiheng Huang, Yilin Niu, Yuan Wang, Yuanchang Yue, Yuchen Li, Yutao Zhang, Yuxuan Zhang, Zhanxiao Du, Zhenyu Hou, Zhao Xue, Zhengxiao Du, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang</p>
+<p class="paper-venue">Technical Report of GLM-4.1V-Thinking</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2507.01006">[Technical Report]</a> <a href="https://github.com/THUDM/GLM-4.1V-Thinking">[Code]</a></p>
+</div>
+</div>
+
 <div class="paper-container">
 <div class="paper-image">
 <img src="images/wn.png" alt="paper">
@@ -279,6 +236,57 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
     </div>
 </div>
 
+<br>
+
+<!-- GLM-4.1V-Thinking Card -->
+<div style="display: flex; flex-direction: column; gap: 20px;">
+    <div style="
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        padding: 16px;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+        background-color: #fff;
+    ">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <svg height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill="#586069"></path>
+                </svg>
+                <a href="https://github.com/THUDM/GLM-4.1V-Thinking" style="
+                    color: #0366d6;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                    margin-left: 8px;
+                ">THUDM/GLM-4.1V-Thinking</a>
+            </div>
+            <div style="
+                border: 1px solid #e1e4e8;
+                border-radius: 20px;
+                padding: 0 7px;
+                font-size: 12px;
+                color: #586069;
+            ">Public</div>
+        </div>
+        <p style="
+            font-size: 14px;
+            color: #586069;
+            margin: 8px 0;
+        ">GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning
+        </p>
+        <div style="display: flex; align-items: center; margin-top: 8px; gap: 8px;">
+            <!-- Language -->
+            <img src="https://img.shields.io/github/languages/top/THUDM/GLM-4.1V-Thinking?style=flat-square" alt="Language">
+            <!-- Stars -->
+            <img src="https://img.shields.io/github/stars/THUDM/GLM-4.1V-Thinking?style=flat-square" alt="Stars">
+            <!-- Forks -->
+            <img src="https://img.shields.io/github/forks/THUDM/GLM-4.1V-Thinking?style=flat-square" alt="Forks">
+            <!-- Last Commit -->
+            <img src="https://img.shields.io/github/last-commit/THUDM/GLM-4.1V-Thinking?style=flat-square" alt="Last Commit">
+        </div>
+    </div>
+</div>
+
 # Awards
 - **Outstanding Graduate of Beijing** (北京市优秀毕业生)
 - **Outstanding Graduate of Tsinghua** (清华大学优良毕业生)
@@ -294,8 +302,11 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
 
 
 # Services
-- **Program Committee/Reviewer**:
-  -  The Thirteenth International Conference on Learning Representations (ICLR 2025)
+- **Reviewer**:
+  - ACL ARR 2025 May Reviewer
+  - The 2025 Conference on Empirical Methods in Natural Language Processing, System Demonstration Track (EMNLP 2025 Demo)
+  - The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NIPS 2025)
+  - The Thirteenth International Conference on Learning Representations (ICLR 2025)
 
 <p align="center" style="padding-top: 100px;"> 
 </p>
