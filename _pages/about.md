@@ -92,7 +92,7 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
 # Research Paper
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/GLM-4.1V.png" alt="paper">
+<img src="images/GLM-4.1V-Thinking.png" alt="paper">
 </div>
 <div class="paper-text">
 <div class="paper-title">GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning</div>
