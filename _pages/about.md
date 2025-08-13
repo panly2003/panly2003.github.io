@@ -10,11 +10,13 @@ redirect_from:
 
 Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master's student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/) in 2024. 
 
-My research focuses on two main areas:
-- AI Safety with an emphasis on watermark for large language models.
+My research areas include:
+- Watermark for AIGC, including watermark for large language models and watermark for diffusion models.
 - Post-training methods to enhance reasoning capabilities of multimodal large language models.
+- Omni-modal large language models (i.e. audio-visual large language models).
+- Diffusion large language models (DLLM).
 
-I am currently serving as a Research Intern at [Tongyi Team of Alibaba](https://careers-tongyi.alibaba.com/), where I am working under the supervision of Dr. [Yunpeng Zhai](https://scholar.google.com/citations?user=YZ88bV8AAAAJ&hl=zh-CN).
+I am currently serving as a Research Intern at [Tongyi Lab of Alibaba](https://careers-tongyi.alibaba.com/), where I am working under the supervision of Dr. [Yunpeng Zhai](https://scholar.google.com/citations?user=YZ88bV8AAAAJ&hl=zh-CN).
 
 Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy). I also served as a Research Assistant at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow).
 
@@ -46,10 +48,10 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
 
 <div style="display: flex; margin-bottom: 2em; align-items: center;">
     <div style="margin-right: 2em;">
-        <img src="images/qwen-color.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
+        <img src="images/qwen-color.svg" alt="Tongyi Logo" style="width: 80px; height: auto;">
     </div>
     <div>
-        <div style="font-weight: bold;">Tongyi Team of Alibaba, China</div>
+        <div style="font-weight: bold;">Tongyi Lab, Alibaba Group, China</div>
         <div style="font-style: italic;">Research Intern</div>
         <div>Jul. 2025 - Present</div>
     </div>
@@ -60,8 +62,8 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
         <img src="images/zhipu-1.svg" alt="Zhipu Logo" style="width: 80px; height: auto;">
     </div>
     <div>
-        <div style="font-weight: bold;">Zhipu AI, China</div>
-        <div style="font-style: italic;">Large Multimodal Model Research Intern</div>
+        <div style="font-weight: bold;">AI Lab, Zhipu AI, China</div>
+        <div style="font-style: italic;">Research Intern</div>
         <div>Oct. 2024 - Jun. 2025</div>
     </div>
 </div>
@@ -90,18 +92,7 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
 
 
 # Research Paper
-<div class="paper-container">
-<div class="paper-image">
-<img src="images/GLM-4.1V-Thinking.png" alt="paper">
-</div>
-<div class="paper-text">
-<div class="paper-title">GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning</div>
-<p class="paper-authors">Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Jiazheng Xu, Jiali Chen, Jing Chen, Jinhao Chen, Jinghao Lin, Jinjiang Wang, Junjie Chen, Leqi Lei, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Mingzhi Zhang, Qinkai Zheng, Sheng Yang, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Shangqin Tu, Shengbiao Meng, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Tianle Gong, Wenkai Li, Wei Jia, Xin Lyu, Xuancheng Huang, Yanling Wang, Yadong Xue, Yanfeng Wang, Yifan An, Yifan Du, Yiming Shi, Yiheng Huang, Yilin Niu, Yuan Wang, Yuanchang Yue, Yuchen Li, Yutao Zhang, Yuxuan Zhang, Zhanxiao Du, Zhenyu Hou, Zhao Xue, Zhengxiao Du, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang</p>
-<p class="paper-venue">Technical Report of GLM-4.1V-Thinking</p>
-<p class="paper-links"><a href="https://arxiv.org/pdf/2507.01006">[Technical Report]</a> <a href="https://github.com/THUDM/GLM-4.1V-Thinking">[Code]</a></p>
-</div>
-</div>
-
+### Watermark for AIGC
 <div class="paper-container">
 <div class="paper-image">
 <img src="images/wn.png" alt="paper">
@@ -183,6 +174,57 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
 <p class="paper-authors">Aiwei Liu, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Xuming Hu, Shuang Li, Lijie Wen, Irwin King, Philip S. Yu</p>
 <p class="paper-venue">Proceedings of ICLR 2024</p>
 <p class="paper-links"><a href="https://arxiv.org/pdf/2307.16230.pdf">[Paper]</a> <a href="https://github.com/THU-BPM/unforgeable_watermark">[Code]</a></p>
+</div>
+</div>
+
+### MLLM Reasoning
+<div class="paper-container">
+<div class="paper-image">
+<img src="images/GLM-4.1V-Thinking.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning</div>
+<p class="paper-authors">Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Jiazheng Xu, Jiali Chen, Jing Chen, Jinhao Chen, Jinghao Lin, Jinjiang Wang, Junjie Chen, Leqi Lei, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Mingzhi Zhang, Qinkai Zheng, Sheng Yang, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Shangqin Tu, Shengbiao Meng, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Tianle Gong, Wenkai Li, Wei Jia, Xin Lyu, Xuancheng Huang, Yanling Wang, Yadong Xue, Yanfeng Wang, Yifan An, Yifan Du, Yiming Shi, Yiheng Huang, Yilin Niu, Yuan Wang, Yuanchang Yue, Yuchen Li, Yutao Zhang, Yuxuan Zhang, Zhanxiao Du, Zhenyu Hou, Zhao Xue, Zhengxiao Du, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang</p>
+<p class="paper-venue">Technical Report of GLM-4.1V-Thinking</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2507.01006">[Technical Report]</a> <a href="https://github.com/THUDM/GLM-4.1V-Thinking">[Code]</a></p>
+</div>
+</div>
+
+### Omni-modal Large Language Models
+<div class="paper-container">
+<div class="paper-image">
+<img src="images/Omni-SafetyBench.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models</div>
+<p class="paper-authors"><strong style="text-decoration-line: underline;">Leyi Pan</strong>, Zheyu Fu, Yunpeng Zhai, Shuchang Tao, Sheng Guan, Shiyu Huang, Lingzhe Zhang, Zhaoyang Liu, Bolin Ding, Felix Henry, Lijie Wen, Aiwei Liu</p>
+<p class="paper-venue">arXiv preprint. arXiv:2508.07173</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2508.07173.pdf">[Paper]</a> <a href="https://github.com/THU-BPM/Omni-SafetyBench">[Code]</a> <a href="https://huggingface.co/datasets/Leyiii/Omni-SafetyBench">[Data]</a></p>
+</div>
+</div>
+
+<div class="paper-container">
+<div class="paper-image">
+<img src="images/OmniPlay.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">OmniPlay: Benchmarking Omni-Modal Models on Omni-Modal Game Playing</div>
+<p class="paper-authors">Fuqing Bie, Shiyu Huang, Xijia Tao, Zhiqin Fang, <strong style="text-decoration-line: underline;">Leyi Pan</strong>, Junzhe Chen, Min Ren, Liuyu Xiang, Zhaofeng He</p>
+<p class="paper-venue">arXiv preprint. arXiv:2508.04361</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2508.04361.pdf">[Paper]</a> <a href="https://github.com/fuqingbie/omni-game-benchmark">[Code]</a></p>
+</div>
+</div>
+
+### Diffusion Large Language Models
+<div class="paper-container">
+<div class="paper-image">
+<img src="images/dllm-survey.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models</div>
+<p class="paper-authors">Lingzhe Zhang*, Liancheng Fang*, Chiming Duan*, Minghua He*, <strong style="text-decoration-line: underline;">Leyi Pan*</strong>, Pei Xiao, Shiyu Huang, Yunpeng Zhai, Xuming Hu, Philip S. Yu, Aiwei Liu*</p>
+<p class="paper-venue">arXiv preprint. arXiv:2508.08712</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2508.08712.pdf">[Paper]</a></p>
 </div>
 </div>
 
@@ -286,6 +328,59 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
         </div>
     </div>
 </div>
+
+<br>
+
+<div style="display: flex; flex-direction: column; gap: 20px;">
+    <!-- Omni-SafetyBench Card -->
+    <div style="
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        padding: 16px;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+        background-color: #fff;
+    ">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <svg height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill="#586069"></path>
+                </svg>
+                <a href="https://github.com/THU-BPM/Omni-SafetyBench" style="
+                    color: #0366d6;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                    margin-left: 8px;
+                ">THU-BPM/Omni-SafetyBench</a>
+            </div>
+            <div style="
+                border: 1px solid #e1e4e8;
+                border-radius: 20px;
+                padding: 0 7px;
+                font-size: 12px;
+                color: #586069;
+            ">Public</div>
+        </div>
+        <p style="
+            font-size: 14px;
+            color: #586069;
+            margin: 8px 0;
+        "><span style="color: #238636; font-weight: 500;">🏆 First Author & First Contributor</span><br> Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models
+        </p>
+        <div style="display: flex; align-items: center; margin-top: 8px; gap: 8px;">
+            <!-- Language -->
+            <img src="https://img.shields.io/github/languages/top/THU-BPM/Omni-SafetyBench?style=flat-square" alt="Language">
+            <!-- Stars -->
+            <img src="https://img.shields.io/github/stars/THU-BPM/Omni-SafetyBench?style=flat-square" alt="Stars">
+            <!-- Forks -->
+            <img src="https://img.shields.io/github/forks/THU-BPM/Omni-SafetyBench?style=flat-square" alt="Forks">
+            <!-- Last Commit -->
+            <img src="https://img.shields.io/github/last-commit/THU-BPM/Omni-SafetyBench?style=flat-square" alt="Last Commit">
+        </div>
+    </div>
+</div>
+
+<br>
 
 # Awards
 - **Outstanding Graduate of Beijing** (北京市优秀毕业生)
