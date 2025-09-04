@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-Hi! My name is **Leyi Pan (潘乐怡)**. I am a first-year master's student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/) in 2024. 
+Hi! My name is **Leyi Pan (潘乐怡)**. I am a second-year PhD student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/) in 2024. 
 
 My research areas include:
 - Watermark for AIGC, including watermark for large language models and watermark for diffusion models.
@@ -28,8 +28,8 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
     </div>
     <div>
         <div style="font-weight: bold;">Tsinghua University, China</div>
-        <div style="font-style: italic;">Master's Student in Software Engineering</div>
-        <div>Sept. 2024 - June 2027 (Expected)</div>
+        <div style="font-style: italic;">PhD Student in Software Engineering</div>
+        <div>Sept. 2024 - June 2029 (Expected)</div>
     </div>
 </div>
 

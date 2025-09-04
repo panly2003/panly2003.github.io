@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Leyi Pan"
 title_separator          : "-"
 name                     : &name "Leyi"
-description              : &description " Master Student @ Tsinghua University"
+description              : &description " PhD Student @ Tsinghua University"
 url                      : https://panly2003.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "panly2003/panly2003.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "self-photo-new.jpg"
   name             : "Leyi Pan"
   pronouns         : 
-  bio              : "Master's Student @ Tsinghua University"
+  bio              : "PhD Student @ Tsinghua University"
   location         : " Beijing"
   employer         : " Tsinghua University"
   uri              : 
