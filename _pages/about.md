@@ -125,7 +125,19 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
 <div class="paper-title">MarkLLM: An Open-Source Toolkit for LLM Watermarking</div>
 <p class="paper-authors"><strong style="text-decoration-line: underline;">Leyi Pan</strong>, Aiwei Liu, Zhiwei He, Zitian Gao, Xuandong Zhao, Yijian Lu, Binglin Zhou, Shuliang Liu, Xuming Hu, Lijie Wen, Irwin King, Philip S. Yu</p>
 <p class="paper-venue">Proceedings of EMNLP 2024 Demo</p>
-<p class="paper-links"><a href="https://arxiv.org/pdf/2405.10051">[Paper]</a> <a href="https://github.com/THU-BPM/MarkLLM">[Code]</a> <a href="https://colab.research.google.com/drive/169MS4dY6fKNPZ7-92ETz1bAm_xyNAs0B?usp=sharing">[Google Colab]</a> <a href="https://mp.weixin.qq.com/s/lx9ZNeHae4mo1J6_sFubfg">[机器之心]</a></p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2405.10051">[Paper]</a> <a href="https://github.com/THU-BPM/MarkLLM">[Code]</a> <a href="https://generative-watermark.github.io/">[Homepage]</a> <a href="https://colab.research.google.com/drive/169MS4dY6fKNPZ7-92ETz1bAm_xyNAs0B?usp=sharing">[Google Colab]</a> <a href="https://mp.weixin.qq.com/s/lx9ZNeHae4mo1J6_sFubfg">[机器之心]</a></p>
+</div>
+</div>
+
+<div class="paper-container">
+<div class="paper-image">
+<img src="images/markdiffusion.png" alt="paper">
+</div>
+<div class="paper-text">
+<div class="paper-title">MarkDiffusion: An Open-Source Toolkit for Generative Watermarking of Latent Diffusion Models</div>
+<p class="paper-authors"><strong style="text-decoration-line: underline;">Leyi Pan</strong>, Sheng Guan, Zheyu Fu, Luyang Si, Zian Wang, Xuming Hu, Irwin King, Philip S. Yu, Aiwei Liu, Lijie Wen</p>
+<p class="paper-venue">arXiv preprint. arXiv:2509.10569</p>
+<p class="paper-links"><a href="https://arxiv.org/pdf/2509.10569">[Paper]</a> <a href="https://github.com/THU-BPM/MarkDiffusion">[Code]</a> <a href="https://generative-watermark.github.io/">[Homepage]</a></p>
 </div>
 </div>
 
@@ -274,6 +286,57 @@ Previously, I was working at [Zhipu AI](https://www.zhipuai.cn/) under the super
             <img src="https://img.shields.io/github/forks/THU-BPM/MarkLLM?style=flat-square" alt="Forks">
             <!-- Last Commit -->
             <img src="https://img.shields.io/github/last-commit/THU-BPM/MarkLLM?style=flat-square" alt="Last Commit">
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div style="display: flex; flex-direction: column; gap: 20px;">
+    <!-- MarkDiffusion Card -->
+    <div style="
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        padding: 16px;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+        background-color: #fff;
+    ">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <svg height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z" fill="#586069"></path>
+                </svg>
+                <a href="https://github.com/THU-BPM/MarkDiffusion" style="
+                    color: #0366d6;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                    margin-left: 8px;
+                ">THU-BPM/MarkDiffusion</a>
+            </div>
+            <div style="
+                border: 1px solid #e1e4e8;
+                border-radius: 20px;
+                padding: 0 7px;
+                font-size: 12px;
+                color: #586069;
+            ">Public</div>
+        </div>
+        <p style="
+            font-size: 14px;
+            color: #586069;
+            margin: 8px 0;
+        "><span style="color: #238636; font-weight: 500;">🏆 First Author </span><br> An Open-Source Toolkit for Generative Watermarking of Latent Diffusion Models
+        </p>
+        <div style="display: flex; align-items: center; margin-top: 8px; gap: 8px;">
+            <!-- Language -->
+            <img src="https://img.shields.io/github/languages/top/THU-BPM/MarkDiffusion?style=flat-square" alt="Language">
+            <!-- Stars -->
+            <img src="https://img.shields.io/github/stars/THU-BPM/MarkDiffusion?style=flat-square" alt="Stars">
+            <!-- Forks -->
+            <img src="https://img.shields.io/github/forks/THU-BPM/MarkDiffusion?style=flat-square" alt="Forks">
+            <!-- Last Commit -->
+            <img src="https://img.shields.io/github/last-commit/THU-BPM/MarkDiffusion?style=flat-square" alt="Last Commit">
         </div>
     </div>
 </div>
