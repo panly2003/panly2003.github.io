@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
+
 # About Me
 
 Hi! My name is **Leyi Pan (潘乐怡)**. I am currently a 2nd-year Ph.D. student at the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/), where I am advised by Prof. [Lijie Wen](https://www.thss.tsinghua.edu.cn/faculty/wenlijie.htm). Before that, I received my B.Eng. degree from the [School of Software](https://www.thss.tsinghua.edu.cn/) in [Tsinghua University](https://www.tsinghua.edu.cn/) in 2024. 
@@ -15,9 +16,10 @@ Hi! My name is **Leyi Pan (潘乐怡)**. I am currently a 2nd-year Ph.D. student
 I'm currently a research intern focusing on reasoning, reinforcement learning and general agent at [Tongyi Lab, Alibaba Group](https://careers-tongyi.alibaba.com/), where I am working under the supervision of Dr. [Yunpeng Zhai](https://scholar.google.com/citations?user=YZ88bV8AAAAJ&hl=zh-CN). Previously, I held research intern position at [Zhipu AI](https://www.zhipuai.cn/) under the supervision of Dr. [Shiyu Huang](http://tartrl.cn/hsy). I also served as a Research Assistant at [CUHK MISC Lab](https://misc-lab.cse.cuhk.edu.hk/), working under the supervision of Prof. [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) (ACM Fellow, IEEE Fellow, AAAI Fellow).
 
 ### Research Interests：
-- **Reasoning & Reinforcement Learning** — Enhancing the reasoning capabilities of large foundation models with reinforcement learning
+- **Reasoning and Reinforcement Learning** — Enhancing the reasoning capabilities of large foundation models and agents with reinforcement learning
 - **Trustworthy AI** — Including safety alignment, evaluation and watermarking for AIGC
 
+<span class='anchor' id='education'></span>
 # 📖 Education
 
 - <span style="font-size: 0.92em;">**2024.09 - Present** | <img src="images/tsinghua.svg" style="width: 1em;"> **Ph.D. in Computer Science**</span>  
@@ -26,22 +28,24 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 - <span style="font-size: 0.92em;">**2020.09 - 2024.06** | <img src="images/tsinghua.svg" style="width: 1em;"> **B.E. in Computer Science**</span>  
   School of Software, Tsinghua University
 
-# 💻 Research Experience
 
-- <span style="font-size: 0.92em;">**2025.7 - Present** | <img src="images/qwen-color.svg" style="width: 3.4em;">**Tongyi Lab, Alibaba Group**</span>  
+<span class='anchor' id='experiences'></span>
+
+# 💻 Research Experience
+- <span style="font-size: 0.92em;">**2025.7 - Present** | <img src="images/qwen-color.svg" style="width: 2.0em;">**Tongyi Lab, Alibaba Group**</span>  
   <span style="font-size: 0.869em;">- Research Intern on reasoning, reinforcement learning and agentic RL <br>- Mentor: [Yunpeng Zhai](https://scholar.google.com/citations?user=YZ88bV8AAAAJ&hl=zh-CN)</span>
 
-- <span style="font-size: 0.92em;">**2024.10 - 2025.06** | <img src="images/zhipu-1.svg" style="width: 2.8em;"> **AI Lab, Zhipu AI**</span>  
+- <span style="font-size: 0.92em;">**2024.10 - 2025.06** | <img src="images/zhipu-1.svg" style="width: 2.0em;"> **AI Lab, Zhipu AI**</span>  
   <span style="font-size: 0.869em;">- Research Intern on reasoning for MLLMs <br>- Mentor: [Shiyu Huang](http://tartrl.cn/hsy)</span>
 
 - <span style="font-size: 0.92em;">**2024.06 - 2024.08** | <img src="images/cuhk.svg" style="width: 2.4em;"> **The Chinese University of Hong Kong (CUHK)**</span>  
   <span style="font-size: 0.869em;">- Research Assistant on Trustworthy AI<br>- Professor: [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) <span style="color: red;">(ACM Fellow, IEEE Fellow, AAAI Fellow)</span></span>
 
-- <span style="font-size: 0.92em;">**2023.06 - 2023.08** | <img src="images/kuaishou.svg" style="width: 2.4em;"> **KuaiShou Technology**</span>  
+- <span style="font-size: 0.92em;">**2023.06 - 2023.08** | <img src="images/kuaishou.svg" style="width: 1.8em;"> **KuaiShou Technology**</span>  
   <span style="font-size: 0.869em;">- Research Intern on Tool-integrated Agent<br>- Mentors: [Haojie Pan](https://scholar.google.com/citations?user=2NehWz0AAAAJ&hl=zh-CN) and [Ruiji Fu](https://scholar.google.com/citations?user=vhCLl50AAAAJ&hl=zh-CN)</span>
 
 
-
+<span class='anchor' id='publications'></span>
 
 # 📝 Selected Preprints
 - <span style="font-size: 0.92em;">[**d-TreeRPO: Towards More Reliable Policy Optimization for Diffusion Language Models**](https://arxiv.org/abs/2512.09675)</span>\
@@ -51,7 +55,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 <span style="font-size: 0.869em;"> **Leyi Pan**, Zheyu Fu, Yunpeng Zhai, Shuchang Tao, Sheng Guan, Shiyu Huang, Lingzhe Zhang, Zhaoyang Liu, Bolin Ding, Felix Henry, Aiwei Liu, Lijie Wen</span> \
 <a href="https://github.com/THU-BPM/Omni-SafetyBench"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/THU-BPM/Omni-SafetyBench?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
 
-- <span style="font-size: 0.92em;">[**GLM-4.5 V and GLM-4.1 V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning**](https://arxiv.org/abs/2507.01006) <img src="images/zhipu-1.svg" style="width: 1em;"></span>\
+- <span style="font-size: 0.92em;">[**GLM-4.5 V and GLM-4.1 V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning**](https://arxiv.org/abs/2507.01006) <img src="images/zhipu-1.svg" style="width: 1.3em;"></span>\
 <span style="font-size: 0.869em;"> Zhipu AI (76 authors including **Leyi Pan**)</span> \
 <a href="https://github.com/zai-org/GLM-V"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zai-org/GLM-V?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <img src="https://img.shields.io/badge/Citations-118-blue?logo=Google%20Scholar&style=flat-square" />
 
@@ -93,6 +97,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 <img src="https://img.shields.io/badge/Citations-141-blue?logo=Google%20Scholar&style=flat-square" />
 
 
+<span class='anchor' id='honors-awards'></span>
 # 🏆 Honors & Awards
 - 2025: **Tsinghua Excellent First-class Scholarship** (清华大学综合优秀一等奖学金)
 - 2024: **Outstanding Graduate of Beijing** (北京市优秀毕业生)
@@ -100,12 +105,14 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 - 2024: **Tsinghua Outstanding Graduation Project** (清华大学优秀毕业设计)
 - 2021-2023: **Tsinghua Excellent Student Award** (清华大学综合优秀奖学金)
 
-# 📞 Contact
+<span class='anchor' id='contact'></span>
 
+# 📞 Contact
 - **Email**:
   -  panly24@mails.tsinghua.edu.cn
   -  panleyi2003@gmail.com
 
+<span class='anchor' id='academic-services'></span>
 
 # 🔍 Academic Services
 - **Reviewer**: ACL ARR, NIPS, ICLR

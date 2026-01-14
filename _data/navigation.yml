@@ -1,25 +1,22 @@
 # main links links
 main:
-  # - title: "All Research"
-  #   url: /publications/
+  - title: "About me"
+    url: "/#about-me"
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Education"
+    url: "/#education"
 
-  # - title: "Teaching"
-  #   url: /teaching/  
+  - title: "Research Experiences"
+    url: "/#experiences"
 
-  # - title: "Services"
-  #   url: /services/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Publications"
+    url: "/#publications"
+
+  - title: "Honors & Awards"
+    url: "/#honors-awards"
+  
+  - title: "Contact"
+    url: "/#contact"
+
+  - title: "Academic Services"
+    url: "/#academic-services"
