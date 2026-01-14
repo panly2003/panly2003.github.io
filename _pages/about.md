@@ -32,7 +32,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 <span class='anchor' id='experiences'></span>
 
 # 💻 Research Experience
-- <span style="font-size: 0.92em;">**2025.7 - Present** | <img src="images/qwen-color.svg" style="width: 2.0em;">**Tongyi Lab, Alibaba Group**</span>  
+- <span style="font-size: 0.92em;">**2025.7 - Present** | <img src="images/qwen-color.svg" style="width: 1.8em;">**Tongyi Lab, Alibaba Group**</span>  
   <span style="font-size: 0.869em;">- Research Intern on reasoning, reinforcement learning and agentic RL <br>- Mentor: [Yunpeng Zhai](https://scholar.google.com/citations?user=YZ88bV8AAAAJ&hl=zh-CN)</span>
 
 - <span style="font-size: 0.92em;">**2024.10 - 2025.06** | <img src="images/zhipu-1.svg" style="width: 2.0em;"> **AI Lab, Zhipu AI**</span>  
@@ -41,7 +41,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 - <span style="font-size: 0.92em;">**2024.06 - 2024.08** | <img src="images/cuhk.svg" style="width: 2.4em;"> **The Chinese University of Hong Kong (CUHK)**</span>  
   <span style="font-size: 0.869em;">- Research Assistant on Trustworthy AI<br>- Professor: [Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/home) <span style="color: red;">(ACM Fellow, IEEE Fellow, AAAI Fellow)</span></span>
 
-- <span style="font-size: 0.92em;">**2023.06 - 2023.08** | <img src="images/kuaishou.svg" style="width: 1.8em;"> **KuaiShou Technology**</span>  
+- <span style="font-size: 0.92em;">**2023.06 - 2023.08** | <img src="images/kuaishou.svg" style="width: 1.6em;"> **KuaiShou Technology**</span>  
   <span style="font-size: 0.869em;">- Research Intern on Tool-integrated Agent<br>- Mentors: [Haojie Pan](https://scholar.google.com/citations?user=2NehWz0AAAAJ&hl=zh-CN) and [Ruiji Fu](https://scholar.google.com/citations?user=vhCLl50AAAAJ&hl=zh-CN)</span>
 
 
