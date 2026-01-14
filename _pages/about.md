@@ -64,7 +64,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 <a href="https://github.com/THU-BPM/MarkDiffusion"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/THU-BPM/MarkDiffusion?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a>
 
 - <span style="font-size: 0.92em;">[**A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models**](https://arxiv.org/abs/2508.08712) </span>\
-<span style="font-size: 0.869em;"> Lingzhe Zhang*, Liancheng Fang*, Chiming Duan*, Minghua He*, **Leyi Pan***, Pei Xiao, Shiyu Huang, Yunpeng Zhai, Xuming Hu, Philip S Yu, Aiwei Liu</span>
+<span style="font-size: 0.869em;"> Lingzhe Zhang\*, Liancheng Fang\*, Chiming Duan\*, Minghua He\*, **Leyi Pan\***, Pei Xiao, Shiyu Huang, Yunpeng Zhai, Xuming Hu, Philip S Yu, Aiwei Liu</span>
 
 # 📝 Selected Publications（[**Full List**](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=4b-1Os8AAAAJ)）
 
@@ -82,7 +82,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 <a href="https://github.com/THU-BPM/MarkLLM"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/THU-BPM/MarkLLM?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <img src="https://img.shields.io/badge/Citations-80-blue?logo=Google%20Scholar&style=flat-square" />
 
 - <span style="font-size: 0.92em;">[**A Survey of Text Watermarking in the Era of Large Language Models**](https://dl.acm.org/doi/pdf/10.1145/3691626)</span>\
-<span style="font-size: 0.869em;"> Aiwei Liu*, **Leyi Pan***, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King, Philip S Yu</span>\
+<span style="font-size: 0.869em;"> Aiwei Liu\*, **Leyi Pan\***, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King, Philip S Yu</span>\
 <span style="font-size: 0.87em; color: #c00000;">**ACM Computing Surveys**</span> \
 <img src="https://img.shields.io/badge/Citations-168-blue?logo=Google%20Scholar&style=flat-square" />
 
