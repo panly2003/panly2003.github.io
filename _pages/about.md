@@ -57,7 +57,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 
 - <span style="font-size: 0.92em;">[**GLM-4.5 V and GLM-4.1 V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning**](https://arxiv.org/abs/2507.01006) <img src="images/zhipu-1.svg" style="width: 1.3em;"></span>\
 <span style="font-size: 0.869em;"> Zhipu AI (76 authors including **Leyi Pan**)</span> \
-<a href="https://github.com/zai-org/GLM-V"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zai-org/GLM-V?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <img src="https://img.shields.io/badge/Citations-118-blue?logo=Google%20Scholar&style=flat-square" />
+<a href="https://github.com/zai-org/GLM-V"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zai-org/GLM-V?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <img src="https://img.shields.io/badge/Citations-171-blue?logo=Google%20Scholar&style=flat-square" />
 
 - <span style="font-size: 0.92em;">[**MarkDiffusion: An Open-Source Toolkit for Generative Watermarking of Latent Diffusion Models**](https://arxiv.org/abs/2509.10569) </span>\
 <span style="font-size: 0.869em;"> **Leyi Pan**, Sheng Guan, Zheyu Fu, Luyang Si, Huan Wang, Zian Wang, Hanqian Li, Xuming Hu, Irwin King, Philip S Yu, Aiwei Liu, Lijie Wen</span> \
@@ -70,7 +70,7 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 
 - <span style="font-size: 0.92em;">[**Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?**](https://arxiv.org/abs/2502.11598)</span>\
 <span style="font-size: 0.869em;"> **Leyi Pan**, Aiwei Liu, Shiyu Huang, Yijian Lu, Xuming Hu, Lijie Wen, Irwin King, Philip S Yu</span>\
-<span style="font-size: 0.87em; color: #c00000;">**ACL 2025**</span>
+<span style="font-size: 0.87em; color: #c00000;">**ACL 2025 Main (CCF-A)**</span>
 
 - <span style="font-size: 0.92em;">[**WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents**](https://aclanthology.org/2025.findings-naacl.156.pdf)</span>\
 <span style="font-size: 0.869em;"> **Leyi Pan**, Aiwei Liu, Yijian Lu, Zitian Gao, Yichen Di, Lijie Wen, Irwin King, Philip S Yu</span>\
@@ -79,22 +79,22 @@ I'm currently a research intern focusing on reasoning, reinforcement learning an
 - <span style="font-size: 0.92em;">[**MarkLLM: An Open-Source Toolkit for LLM Watermarking**](https://arxiv.org/abs/2502.11598)</span>\
 <span style="font-size: 0.869em;"> **Leyi Pan**, Aiwei Liu, Zhiwei He, Zitian Gao, Xuandong Zhao, Yijian Lu, Binglin Zhou, Shuliang Liu, Xuming Hu, Lijie Wen, Irwin King, Philip S Yu</span>\
 <span style="font-size: 0.87em; color: #c00000;">**EMNLP 2024 (System Demonstration Track)**</span> \
-<a href="https://github.com/THU-BPM/MarkLLM"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/THU-BPM/MarkLLM?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <img src="https://img.shields.io/badge/Citations-80-blue?logo=Google%20Scholar&style=flat-square" />
+<a href="https://github.com/THU-BPM/MarkLLM"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/THU-BPM/MarkLLM?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10" style="border: 1px solid #ccc; border-radius: 4px;"></a> <img src="https://img.shields.io/badge/Citations-90-blue?logo=Google%20Scholar&style=flat-square" />
 
 - <span style="font-size: 0.92em;">[**A Survey of Text Watermarking in the Era of Large Language Models**](https://dl.acm.org/doi/pdf/10.1145/3691626)</span>\
 <span style="font-size: 0.869em;"> Aiwei Liu\*, **Leyi Pan\***, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King, Philip S Yu</span>\
-<span style="font-size: 0.87em; color: #c00000;">**ACM Computing Surveys**</span> \
-<img src="https://img.shields.io/badge/Citations-168-blue?logo=Google%20Scholar&style=flat-square" />
+<span style="font-size: 0.87em; color: #c00000;">**ACM Computing Surveys (IF 23.8)**</span> \
+<img src="https://img.shields.io/badge/Citations-213-blue?logo=Google%20Scholar&style=flat-square" />
 
 - <span style="font-size: 0.92em;">[**A Semantic Invariant Robust Watermark for Large Language Models**](https://arxiv.org/abs/2310.06356)</span>\
 <span style="font-size: 0.869em;"> Aiwei Liu, **Leyi Pan**, Xuming Hu, Shiao Meng, Lijie Wen</span>\
-<span style="font-size: 0.87em; color: #c00000;">**ICLR 2024**</span> \
-<img src="https://img.shields.io/badge/Citations-159-blue?logo=Google%20Scholar&style=flat-square" />
+<span style="font-size: 0.87em; color: #c00000;">**ICLR 2024 (TH-CPL A)**</span> \
+<img src="https://img.shields.io/badge/Citations-171-blue?logo=Google%20Scholar&style=flat-square" />
 
 - <span style="font-size: 0.92em;">[**An Unforgeable Publicly Verifiable Watermark for Large Language Models**](https://arxiv.org/abs/2307.16230)</span>\
 <span style="font-size: 0.869em;"> Aiwei Liu, **Leyi Pan**, Xuming Hu, Shuang Li, Lijie Wen, Irwin King, Philip S Yu</span>\
-<span style="font-size: 0.87em; color: #c00000;">**ICLR 2024**</span> \
-<img src="https://img.shields.io/badge/Citations-141-blue?logo=Google%20Scholar&style=flat-square" />
+<span style="font-size: 0.87em; color: #c00000;">**ICLR 2024 (TH-CPL A)**</span> \
+<img src="https://img.shields.io/badge/Citations-161-blue?logo=Google%20Scholar&style=flat-square" />
 
 
 <span class='anchor' id='honors-awards'></span>
