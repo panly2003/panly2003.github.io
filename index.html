@@ -14,7 +14,7 @@
 
   <style>
     /* Typography and spacing follow luowaterbi.github.io: 15px body, 1.5 line height. */
-    /* Colors sampled from luowaterbi.github.io; keep its white academic theme. */
+    /* White academic theme with vivid purple, yellow, orange, and red accents. */
     :root {
       color-scheme: light;
       --bg: #ffffff;
@@ -24,13 +24,13 @@
       --text-dim: #494e52;
       --nav-text: #7a8288;
       --border: #f2f3f3;
-      --accent: #224b8d;
-      --accent-hover: #224b8d;
-      --accent-soft: #e9edf4;
-      --badge-preprint: #6c757d;
-      --badge-conference: #2e8b57;
-      --badge-journal: #ff8c00;
-      --badge-report: #1e90ff;
+      --accent: #7c3aed;
+      --accent-hover: #5b21b6;
+      --accent-soft: #f3e8ff;
+      --badge-preprint: #facc15;
+      --badge-conference: #7c3aed;
+      --badge-journal: #ff9a1f;
+      --badge-report: #dc2626;
       --badge-shadow: 0 2px 4px rgba(0, 0, 0, .2);
       --page-max: 1280px;
       --header-h: 56px;
@@ -53,37 +53,38 @@
     .home-link:hover { text-decoration: none; color: var(--text); }
     .nav-links { display: flex; gap: 22px; list-style: none; padding: 0; margin: 0; font-size: 1rem; white-space: nowrap; }
     .nav-links a { display: block; padding: 14px 0 13px; border-bottom: 3px solid transparent; color: var(--nav-text); text-decoration: none; transition: color .15s, border-color .15s; }
-    .nav-links a:hover, .nav-links a.active { color: var(--text); border-bottom-color: var(--nav-text); text-decoration: none; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); border-bottom-color: var(--accent); text-decoration: none; }
     .page { max-width: var(--page-max); margin: auto; padding: 25px var(--px) 32px; display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 55px; align-items: start; }
     aside { position: sticky; top: calc(var(--header-h) + 32px); }
     .portrait { width: 175px; height: 175px; margin: 0 auto 16px; border-radius: 50%; object-fit: cover; object-position: center 25%; border: 5px solid var(--bg); outline: 1px solid var(--border); }
-    .profile-name { font-size: 1.4rem; line-height: 1.4; color: var(--text); text-align: center; margin: 0 0 10px; }
+    .profile-name { font-size: 1.4rem; line-height: 1.4; color: var(--accent-hover); text-align: center; margin: 0 0 10px; }
     .profile-name span { font-size: 1.1rem; font-weight: 500; letter-spacing: 3px; }
     .profile-affil { text-align: center; font-size: 1rem; line-height: 1.5; margin-bottom: 14px; }
-    .profile-quote { margin: 0 0 22px; color: var(--text); text-align: center; font-size: 1rem; }
+    .profile-quote { width: fit-content; margin: 0 auto 22px; padding: 4px 12px; border-radius: 5px; color: #fff; background: var(--accent); box-shadow: var(--badge-shadow); text-align: center; font-size: .9rem; font-weight: 700; }
     .side-info, .side-links { list-style: none; padding: 0; margin: 0; }
     .side-info { border-top: 1px solid var(--border); padding-top: 18px; margin-bottom: 12px; }
     .side-info li, .side-links a { display: flex; align-items: center; gap: 12px; font-size: 1rem; }
     .side-info li { margin-bottom: 9px; color: var(--text-dim); }
-    .side-info i, .side-links i { width: 20px; text-align: center; flex-shrink: 0; color: var(--text); }
+    .side-info i, .side-links i { width: 20px; text-align: center; flex-shrink: 0; color: var(--accent); }
     .side-links a { padding: 7px 0; color: var(--text-body); text-decoration: none; }
     .side-links a:hover { color: var(--text); text-decoration: underline; }
     main { min-width: 0; overflow-wrap: break-word; }
     section { margin-bottom: 24px; }
     h1, h2, h3 { line-height: 1.2; }
-    h2 { display: flex; align-items: baseline; gap: 8px; font-size: 1.4rem; font-weight: 700; color: var(--text); margin: 0 0 10.5px; padding-bottom: 10.5px; border-bottom: 1px solid var(--border); }
+    h2 { display: flex; align-items: baseline; gap: 8px; font-size: 1.4rem; font-weight: 700; color: var(--accent-hover); margin: 0 0 10.5px; padding-bottom: 10.5px; border-bottom: 1px solid var(--border); }
     .section-icon { flex-shrink: 0; font-size: 1.25rem; }
     h3 { font-size: 1.2rem; color: var(--text); margin: 18px 0 9px; }
     p { margin: 0 0 7.5px; }
-    .interest-list { margin: 10px 0 14px; padding-left: 22px; }
-    .interest-list li { margin-bottom: 7.5px; font-size: 1rem; }
-    .interest-key { color: var(--text); }
+    .interest-list { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0 14px; padding: 0; list-style: none; }
+    .interest-list li { padding: 6px 12px; max-width: 100%; border-radius: 5px; color: #fff; background: var(--accent); box-shadow: var(--badge-shadow); font-size: 1rem; }
+    .interest-key, .interest-list .current-focus { color: inherit; }
+    .interest-list li:last-child { color: #422006; background: var(--badge-preprint); }
     .current-focus { font-size: .9rem; font-weight: 400; color: var(--text-dim); }
-    .collaboration-note { padding: 16px 20px; border-left: 5px solid #ff6f00; border-radius: 8px; background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); box-shadow: 0 2px 8px rgba(0, 0, 0, .08); font-size: 1rem; }
+    .collaboration-note { padding: 16px 20px; border-left: 5px solid #f59e0b; border-radius: 8px; color: #422006; background: linear-gradient(135deg, #fff7ad 0%, #ffe17a 100%); box-shadow: 0 2px 8px rgba(0, 0, 0, .08); font-size: 1rem; }
     .news-list, .plain-list { margin: 0; padding-left: 22px; }
     .news-list li, .plain-list li { padding-left: 3px; margin-bottom: 7.5px; }
     .news-list li::marker, .plain-list li::marker { color: var(--text); }
-    .news-date { color: var(--text-dim); font-size: 1rem; font-weight: 400; font-style: italic; font-variant-numeric: tabular-nums; white-space: nowrap; margin-right: 8px; }
+    .news-date { color: #c02626; font-size: 1rem; font-weight: 400; font-style: italic; font-variant-numeric: tabular-nums; white-space: nowrap; margin-right: 8px; }
     .publication-note { color: var(--text-dim); font-size: 1rem; margin: 0 0 15px; }
     .pub-group-title { padding-left: 0; }
     .pub-list { list-style: none; margin: 0 0 18px; padding: 0; }
@@ -92,14 +93,14 @@
     .pub-item:last-child { border-bottom: 0; }
     .pub-title { font-size: 1rem; font-weight: 700; line-height: 1.5; margin-bottom: 4px; }
     .pub-authors { font-size: 1rem; color: var(--text-dim); line-height: 1.5; }
-    .pub-authors strong { text-decoration: underline; text-decoration-color: var(--text); text-underline-offset: 3px; }
+    .pub-authors strong { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
     .pub-meta { font-size: 1rem; color: var(--border); line-height: 1.5; margin-top: 5px; }
     .venue { display: inline-block; color: #fff; border-radius: 5px; padding: 3px 8px; font-size: .9rem; font-weight: 700; box-shadow: var(--badge-shadow); }
-    /* Publication types: preprint (gray), conference (green), journal (orange), report (bright blue). */
-    .venue--preprint { background: var(--badge-preprint); box-shadow: 0 2px 4px rgba(0, 0, 0, .1); }
+    /* Publication types: preprint (yellow), conference (purple), journal (orange), report (red). */
+    .venue--preprint { color: #422006; background: var(--badge-preprint); box-shadow: 0 2px 4px rgba(0, 0, 0, .1); }
     .venue--conference { background: var(--badge-conference); }
     .venue--report { background: var(--badge-report); }
-    .venue--journal { background: var(--badge-journal); box-shadow: 0 2px 4px rgba(0, 0, 0, .3); }
+    .venue--journal { color: #431407; background: var(--badge-journal); box-shadow: 0 2px 4px rgba(0, 0, 0, .3); }
     .ccf-tag { font-size: .92em; }
     .links { font-size: 1rem; color: var(--text-dim); }
     .links a { display: inline-block; margin: 0 4px; }
@@ -107,7 +108,8 @@
     .code-stars { display: inline-flex; align-items: center; gap: 4px; flex-wrap: wrap; }
     .gh-stars-img { display: inline-block; height: 18px; width: auto; vertical-align: -3px; }
     .project-list { display: flex; flex-direction: column; gap: 18px; }
-    .project-item { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 22px; align-items: center; padding: 20px; border: 1px solid var(--border); border-radius: 8px; border-left: 3px solid var(--border); }
+    .project-item { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 22px; align-items: center; padding: 20px; border: 1px solid var(--border); border-radius: 8px; border-left: 3px solid var(--accent); }
+    .project-item:nth-child(even) { border-left-color: var(--badge-journal); }
     .project-item > div { min-width: 0; }
     .project-thumb { height: 120px; display: flex; align-items: center; padding: 10px; background: #fff; border-radius: 5px; }
     .project-thumb img { width: 100%; height: 100%; object-fit: contain; }
@@ -154,7 +156,7 @@
       .profile-name { font-size: 1.4rem; }
       .profile-name br { display: none; }
       .profile-name span { margin-left: 10px; }
-      .profile-quote { margin: 0 0 22px; color: var(--text); text-align: center; font-size: 1rem; }
+      .profile-quote { width: fit-content; margin: 0 auto 22px; padding: 4px 12px; border-radius: 5px; color: #fff; background: var(--accent); box-shadow: var(--badge-shadow); text-align: center; font-size: .9rem; font-weight: 700; }
       .side-info { display: flex; justify-content: center; flex-wrap: wrap; gap: 4px 18px; padding-top: 14px; margin-bottom: 0; }
       .side-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
       .side-links a { min-height: 44px; }
