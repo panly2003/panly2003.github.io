@@ -23,17 +23,25 @@
     :root {
       --bg: #fff;
       --bg-soft: #f6f8fc;
-      --text: #242d3d;
-      --text-body: #384253;
+      --text: #17223b;
+      --text-body: #303b50;
       --text-dim: #586579;
       --border: #e2e7ef;
-      --accent: #1565b5;
-      --accent-hover: #104d8b;
-      --accent-soft: #edf5ff;
-      --purple: #7546a3;
-      --purple-soft: #f5effa;
-      --green: #247557;
-      --green-soft: #edf7f1;
+      --accent: #075bd8;
+      --accent-hover: #0041a8;
+      --accent-soft: #e2eeff;
+      --purple: #8825db;
+      --purple-soft: #f1e3ff;
+      --green: #138348;
+      --green-soft: #dff7e9;
+      /* Solid badge colors stay consistent in light and dark themes. */
+      --badge-preprint: #647080;
+      --badge-conference: #0965df;
+      --badge-journal: #138348;
+      --badge-report: #8825db;
+      --badge-shadow: 0 2px 4px rgba(0, 0, 0, .22);
+      --note-bg: #fff0cc;
+      --note-accent: #f58200;
       --page-max: 1280px;
       --header-h: 56px;
       --px: 15px;
@@ -45,13 +53,16 @@
       --text-body: #d2dbe8;
       --text-dim: #aab8cc;
       --border: #344156;
-      --accent: #87beff;
-      --accent-hover: #b8d8ff;
+      --accent: #6fb4ff;
+      --accent-hover: #a6d2ff;
       --accent-soft: #223750;
-      --purple: #d0adf1;
+      --purple: #cf96ff;
       --purple-soft: #342742;
-      --green: #92d8b7;
+      --green: #62dda2;
       --green-soft: #203b32;
+      --badge-shadow: 0 2px 5px rgba(0, 0, 0, .45);
+      --note-bg: #3c2c16;
+      --note-accent: #ffab38;
     }
     *, *::before, *::after { box-sizing: border-box; }
     html { font-size: 15px; scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 24px); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
@@ -84,7 +95,7 @@
     .profile-name { font-size: 1.4rem; line-height: 1.4; color: var(--text); text-align: center; margin: 0 0 10px; }
     .profile-name span { font-size: 1.1rem; font-weight: 500; letter-spacing: 3px; }
     .profile-affil { text-align: center; font-size: 1rem; line-height: 1.5; margin-bottom: 14px; }
-    .profile-quote { width: fit-content; margin: 0 auto 22px; padding: 3px 14px; color: var(--purple); background: var(--purple-soft); border-radius: 5px; font-size: .88rem; font-weight: 700; }
+    .profile-quote { width: fit-content; margin: 0 auto 22px; padding: 3px 14px; color: #fff; background: var(--badge-report); box-shadow: var(--badge-shadow); border-radius: 5px; font-size: .88rem; font-weight: 700; }
     .side-info, .side-links { list-style: none; padding: 0; margin: 0; }
     .side-info { border-top: 1px solid var(--border); padding-top: 18px; margin-bottom: 12px; }
     .side-info li, .side-links a { display: flex; align-items: center; gap: 12px; font-size: 1rem; }
@@ -100,12 +111,12 @@
     h3 { font-size: 1.2rem; color: var(--text); margin: 18px 0 9px; }
     p { margin: 0 0 7.5px; }
     .interest-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 10px 0 14px; }
-    .interest-list li { padding: 6px 13px; border-radius: 5px; background: var(--accent-soft); font-size: 1rem; }
-    .interest-key { color: var(--accent); }
-    .interest-list li:last-child { background: var(--purple-soft); }
-    .interest-list li:last-child .interest-key { color: var(--purple); }
+    .interest-list li { padding: 6px 13px; border-radius: 5px; color: #fff; background: var(--badge-conference); box-shadow: var(--badge-shadow); font-size: 1rem; }
+    .interest-key { color: #fff; }
+    .interest-list li:last-child { background: var(--badge-report); }
+    .interest-list .current-focus { color: #fff; }
     .current-focus { font-size: .9rem; font-weight: 400; color: var(--text-dim); }
-    .collaboration-note { padding: 12px 17px; border-left: 3px solid var(--accent); background: var(--bg-soft); font-size: 1rem; }
+    .collaboration-note { padding: 12px 17px; border-left: 4px solid var(--note-accent); border-radius: 5px; background: var(--note-bg); box-shadow: 0 2px 6px rgba(0, 0, 0, .08); font-size: 1rem; }
     .news-list, .plain-list { margin: 0; padding-left: 22px; }
     .news-list li, .plain-list li { padding-left: 3px; margin-bottom: 7.5px; }
     .news-list li::marker, .plain-list li::marker { color: var(--accent); }
@@ -121,12 +132,12 @@
     .pub-authors { font-size: 1rem; color: var(--text-dim); line-height: 1.5; }
     .pub-authors strong { text-decoration: underline; text-decoration-color: var(--purple); text-underline-offset: 3px; }
     .pub-meta { font-size: 1rem; color: var(--border); line-height: 1.5; margin-top: 5px; }
-    .venue { display: inline-block; border-radius: 4px; padding: 1px 9px; font-size: .9rem; font-weight: 700; }
+    .venue { display: inline-block; color: #fff; border-radius: 5px; padding: 2px 8px; font-size: .9rem; font-weight: 700; box-shadow: var(--badge-shadow); }
     /* Publication types: preprint (gray), conference (blue), journal (green), report (purple). */
-    .venue--preprint { color: var(--text-dim); background: var(--bg-soft); }
-    .venue--conference { color: var(--accent); background: var(--accent-soft); }
-    .venue--report { color: var(--purple); background: var(--purple-soft); }
-    .venue--journal { color: var(--green); background: var(--green-soft); }
+    .venue--preprint { background: var(--badge-preprint); }
+    .venue--conference { background: var(--badge-conference); }
+    .venue--report { background: var(--badge-report); }
+    .venue--journal { background: var(--badge-journal); }
     .ccf-tag { font-size: .92em; }
     .links { font-size: 1rem; color: var(--text-dim); }
     .links a { display: inline-block; margin: 0 4px; }
