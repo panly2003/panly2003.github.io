@@ -41,8 +41,9 @@
     body { margin: 0; color: var(--text-body); background: var(--bg); font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 1rem; line-height: 1.5; -webkit-font-smoothing: antialiased; }
     ::selection { background: var(--accent-soft); color: var(--accent); }
     strong, b { font-weight: 700; color: var(--text); }
-    a { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
-    a:hover { color: var(--accent-hover); text-decoration: underline; }
+    a { color: var(--accent); text-decoration: none; text-underline-offset: 4px; }
+    a:hover { color: var(--accent-hover); text-decoration: none; }
+    #publications a, #publications a:hover { text-decoration: underline; }
     a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 3px; }
     img { display: block; max-width: 100%; }
     .skip-link { position: fixed; top: -100px; left: 16px; z-index: 100; padding: 8px 16px; background: var(--bg); border: 2px solid var(--accent); }
@@ -52,8 +53,8 @@
     .home-link { margin-right: auto; flex-shrink: 0; color: var(--nav-text); text-decoration: none; font-size: 1rem; font-weight: 700; }
     .home-link:hover { text-decoration: none; color: var(--text); }
     .nav-links { display: flex; gap: 22px; list-style: none; padding: 0; margin: 0; font-size: 1rem; white-space: nowrap; }
-    .nav-links a { display: block; padding: 14px 0 13px; border-bottom: 3px solid transparent; color: var(--nav-text); text-decoration: none; transition: color .15s, border-color .15s; }
-    .nav-links a:hover, .nav-links a.active { color: var(--accent); border-bottom-color: var(--accent); text-decoration: none; }
+    .nav-links a { display: block; padding: 14px 0 16px; color: var(--nav-text); text-decoration: none; transition: color .15s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); text-decoration: none; }
     .page { max-width: var(--page-max); margin: auto; padding: 25px var(--px) 32px; display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 55px; align-items: start; }
     aside { position: sticky; top: calc(var(--header-h) + 32px); }
     .portrait { width: 175px; height: 175px; margin: 0 auto 16px; border-radius: 50%; object-fit: cover; object-position: center 25%; border: 5px solid var(--bg); outline: 1px solid var(--border); }
@@ -67,7 +68,7 @@
     .side-info li { margin-bottom: 9px; color: var(--text-dim); }
     .side-info i, .side-links i { width: 20px; text-align: center; flex-shrink: 0; color: var(--accent); }
     .side-links a { padding: 7px 0; color: var(--text-body); text-decoration: none; }
-    .side-links a:hover { color: var(--text); text-decoration: underline; }
+    .side-links a:hover { color: var(--text); text-decoration: none; }
     main { min-width: 0; overflow-wrap: break-word; }
     section { margin-bottom: 24px; }
     h1, h2, h3 { line-height: 1.2; }
