@@ -110,11 +110,11 @@
     .links a:first-child { margin-left: 0; }
     .code-stars { display: inline-flex; align-items: center; gap: 4px; flex-wrap: wrap; }
     .gh-stars-img { display: inline-block; height: 18px; width: auto; vertical-align: -3px; }
-    .project-list { display: flex; flex-direction: column; gap: 18px; }
-    .project-item { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 22px; align-items: center; padding: 20px; border: 1px solid #dedede; border-radius: 8px; }
+    .project-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .project-item { display: flex; flex-direction: column; gap: 14px; padding: 18px; border: 1px solid #dedede; border-radius: 8px; }
     .project-item > div { min-width: 0; }
-    .project-thumb { height: 120px; display: flex; align-items: center; padding: 10px; background: #fff; border-radius: 5px; }
-    .project-thumb img { width: 100%; height: 100%; object-fit: contain; box-shadow: 4px 4px 8px #888; }
+    .project-thumb { height: 160px; display: flex; align-items: center; justify-content: center; padding: 10px; background: #fff; border-radius: 5px; }
+    .project-thumb img { width: auto; height: auto; max-width: 100%; max-height: 100%; box-shadow: 4px 4px 8px #888; }
     .project-name { font-size: 1rem; line-height: 1.5; font-weight: 700; margin-bottom: 6px; }
     .project-role { display: block; font-weight: 400; color: var(--text-dim); font-size: .9rem; }
     .project-desc { color: var(--text-body); font-size: 1rem; line-height: 1.5; margin-bottom: 9px; }
@@ -133,7 +133,6 @@
       .nav-links { gap: 14px; }
       .home-link { font-size: .95rem; }
       .page { grid-template-columns: 210px minmax(0, 1fr); gap: 35px; }
-      .project-item { grid-template-columns: 150px minmax(0, 1fr); gap: 18px; }
     }
     @media (max-width: 960px) {
       :root { --header-h: 107px; }
@@ -143,7 +142,6 @@
       .nav-links a { padding: 10px 0 12px; }
       .page { grid-template-columns: 190px minmax(0, 1fr); gap: 28px; padding-top: 32px; }
       .portrait { width: 170px; height: 170px; }
-      .project-item { grid-template-columns: 1fr; }
       .project-thumb { height: 140px; }
       .internship-item { grid-template-columns: 34px minmax(0, 1fr); }
       .internship-item .time { grid-column: 1 / -1; }
@@ -167,6 +165,7 @@
       .interest-list li { font-size: 1rem; }
       .pub-title { font-size: 1rem; }
       .pub-authors, .pub-meta, .project-desc, .subline, .publication-note { font-size: 1rem; }
+      .project-list { grid-template-columns: 1fr; }
       .project-item { padding: 17px; }
       .time, .news-date, .links { font-size: 1rem; }
       .venue { font-size: .9rem; }
@@ -224,7 +223,7 @@
       <p>
         I am currently a member of the <strong><a href="https://www.minimaxi.com/" target="_blank" rel="noopener">Top Talent Intern Program at Minimax</a></strong>, working in the
         <strong>Foundation Model Team, Reinforcement Learning Group</strong>, where I contribute to releases of the <strong>M-series LLMs</strong>, including
-        <strong><a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">MiniMax-M3.1-Flash-Preview</a></strong>.
+        <strong><a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">M3.1-Flash-Preview</a></strong>.
         From July 2025 to July 2026, I was a research intern on LLM reasoning and reinforcement learning at
         <strong><a href="https://careers-tongyi.alibaba.com/" target="_blank" rel="noopener">Tongyi Lab, Alibaba Group</a></strong>.
         Previously, I interned at <strong><a href="https://z.ai/" target="_blank" rel="noopener">Z.ai</a></strong>,
@@ -243,7 +242,7 @@
     <section id="news">
       <h2><span class="section-icon" aria-hidden="true">🔥</span> News</h2>
       <ul class="news-list">
-        <li><span class="news-date">2026.09</span> <a class="venue venue--model" href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">MiniMax-M3.1-Flash-Preview</a> is released! A fast, native multimodal model for everyday coding and research with a 1M-token context window.</li>
+        <li><span class="news-date">2026.09</span> <a class="venue venue--model" href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">M3.1-Flash-Preview</a> is released! MiniMax's fast, native multimodal model for everyday coding and research with a 1M-token context window.</li>
         <li><span class="news-date">2026.07</span> Joined <strong><a href="https://www.minimaxi.com/" target="_blank" rel="noopener">Minimax</a></strong> through the <strong>Top Talent Intern Program</strong>.</li>
         <li><span class="news-date">2026.07</span> <a href="https://arxiv.org/abs/2508.07173" target="_blank" rel="noopener">Omni-SafetyBench</a> is accepted by <span class="venue venue--conference">ACM MM 2026</span>!</li>
         <li><span class="news-date">2026.07</span> <a href="https://www.jmlr.org/papers/v27/25-2553.html" target="_blank" rel="noopener">MarkDiffusion</a> is accepted by <span class="venue venue--journal venue--jmlr">JMLR</span>!</li>
@@ -283,11 +282,11 @@
       <h2><span class="section-icon" aria-hidden="true">💻</span> Internships</h2>
       <ul class="timeline-list">
         <li class="internship-item"><span class="time">2026.07 - Present</span><img class="org-logo" src="https://www.google.com/s2/favicons?domain=minimaxi.com&sz=64" alt="Minimax logo"><span><a href="https://www.minimaxi.com/" target="_blank" rel="noopener">Minimax</a>, Top Talent Intern Program</span></li>
-        <li class="subline">Foundation Model Team, Reinforcement Learning Group. Contributing to releases of the M-series LLMs, including <a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">MiniMax-M3.1-Flash-Preview</a>.</li>
+        <li class="subline">Foundation Model Team, Reinforcement Learning Group. Contributing to releases of the M-series LLMs, including <a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">M3.1-Flash-Preview</a>.</li>
         <li class="internship-item"><span class="time">2025.07 - 2026.07</span><img class="org-logo" src="images/qwen-color.svg" alt="Alibaba Group logo"><span>Tongyi Lab, Alibaba Group, Research Intern</span></li>
         <li class="subline">Topic: LLM reasoning and reinforcement learning.</li>
         <li class="internship-item"><span class="time">2024.10 - 2025.06</span><img class="org-logo" src="https://www.google.com/s2/favicons?domain=z.ai&sz=64" alt="Z.ai logo"><span>AI Lab, Z.ai, Research Intern</span></li>
-        <li class="subline">Topic: Reasoning and reinforcement learning for multimodal large language models.</li>
+        <li class="subline">Topic: Reasoning and reinforcement learning for multimodal large language models. Contributed to <a href="https://huggingface.co/zai-org/GLM-4.5V" target="_blank" rel="noopener">GLM-4.5V</a> and <a href="https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking" target="_blank" rel="noopener">GLM-4.1V-Thinking</a>.</li>
         <li class="internship-item"><span class="time">2024.06 - 2024.08</span><img class="org-logo" src="images/cuhk.svg" alt="CUHK logo"><span>CUHK MISC Lab, Research Assistant</span></li>
         <li class="subline">Topic: Trustworthy AI.</li>
         <li class="internship-item"><span class="time">2023.06 - 2023.08</span><img class="org-logo" src="https://www.google.com/s2/favicons?domain=kuaishou.com&sz=64" alt="KuaiShou Technology logo"><span>KuaiShou Technology, Research Intern</span></li>
@@ -300,11 +299,11 @@
       <div class="project-list">
         <div class="project-item">
           <div class="project-thumb">
-            <img src="images/m3.1-flash-preview.webp" alt="MiniMax-M3.1-Flash-Preview project image">
+            <img src="images/m3.1-flash-preview.webp" alt="M3.1-Flash-Preview project image">
           </div>
           <div>
-            <div class="project-name"><a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">MiniMax-M3.1-Flash-Preview</a> <span class="project-role">(Contributor)</span></div>
-            <div class="project-desc">A fast, native multimodal model for everyday coding, research, and visual reasoning, with always-on reasoning, configurable reasoning effort, and a 1M-token context window.</div>
+            <div class="project-name"><a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">M3.1-Flash-Preview</a> <span class="project-role">(Contributor)</span></div>
+            <div class="project-desc">MiniMax's fast, native multimodal model for everyday coding, research, and visual reasoning, with always-on reasoning, configurable reasoning effort, and a 1M-token context window.</div>
             <div class="links"><a href="https://agent.minimax.io/tools/m3-1-flash-preview" target="_blank" rel="noopener">Model Page</a></div>
           </div>
         </div>
